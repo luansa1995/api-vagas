@@ -13,7 +13,7 @@ app.listen(PORT, () =>{
 app.get('/about', (req, res) => {
     res.json({
         id : '1',
-        name: 'Joao',
+        name: 'Joao Pedro',
         email: 'joao@gmail.com',
         urls: [
             {
@@ -26,6 +26,16 @@ app.get('/about', (req, res) => {
             url: 'https:youtube.com/joao'
             }
         ]
+    })	
+
+})
+
+app.get('/vagas', (req, res) => {
+    res.json({
+        id : '1',
+        nameCompany: 'Vivo',
+        email: 'joao@gmail.com',
+        tel:'73 32111794'
     })	
 
 })
