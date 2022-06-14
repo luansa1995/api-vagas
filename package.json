@@ -1,0 +1,23 @@
+{
+  "name": "api-vagas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luansa1995/api-vagas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luansa1995/api-vagas/issues"
+  },
+  "homepage": "https://github.com/luansa1995/api-vagas#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
