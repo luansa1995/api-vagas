@@ -56,8 +56,7 @@ app.get('/vagas', (req, res) => {
     email: 'testeB@gmail.com',
     tel:'73 55555 5555',
     Description: 'garagem coletiva',
-},
-
+    }
     )	
 
 })
