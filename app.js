@@ -13,31 +13,10 @@ app.listen(PORT, () =>{
     console.log('Escutando na porta: '+ PORT);
 })
 
-// ate 7° passo
-app.get('/about', (req, res) => {
-    res.json({
-        id : '1',
-        name: 'Joao Pedro',
-        email: 'joao@gmail.com',
-        urls: [
-            {
-            type:'github',
-            url: 'http://github.com/joao'
-        
-            },
-            {
-            type: 'youtube',
-            url: 'https:youtube.com/joao'
-            }
-        ]
-    })	
-
-})
-
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '1',
-        nameCompany: 'Vivo',
+        nameCompany: 'Vivo',  
         address: 'never land',
         email: 'joao@gmail.com',
         tel:'73 32111794',
@@ -62,8 +41,49 @@ app.get('/vagas', (req, res) => {
 })
 
 
-app.get('/', (req,res) => {
-    res.json({
-        msg: 'OK'
-    })
-})
+// app.get('/', (req,res) => {
+//     res.json({
+//         msg: 'OK'
+//     })
+// })
+
+//OPÇÃO DE APARECE UM TEXTO SIMPLES  
+
+app.get("/", function (req, res) {
+    res.send("Olá Luan, Seja Bem Vindo!");
+});
+
+
+
+
+
+func GetMessages(c *gin.Context) {
+	version := c.Param("version")
+	fmt.Println("Version", version)
+	if version == "v2" {
+		c.Header("Access-Control-Allow-Origin", "http://localhost:8080")
+	}
+	c.JSON(http.StatusOK, gin.H{"messages": messages})
+}
+
+
+
+// app.get('/about', (req, res) => {
+//     res.json({
+//         id : '1',
+//         name: 'Joao Pedro',
+//         email: 'joao@gmail.com',
+//         urls: [
+//             {
+//             type:'github',
+//             url: 'http://github.com/joao'
+        
+//             },
+//             {
+//             type: 'youtube',
+//             url: 'https:youtube.com/joao'
+//             }
+//         ]
+//     })	
+
+// })
