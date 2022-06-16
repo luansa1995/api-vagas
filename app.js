@@ -49,7 +49,7 @@ app.get('/vagas', (req, res) => {
 
 //OPÇÃO DE APARECE UM TEXTO SIMPLES  
 
-app.get("/", function (req, res) {
+app.get('/', function (req, res) {
     res.send("Olá Luan, Seja Bem Vindo!");
 });
 
@@ -57,14 +57,14 @@ app.get("/", function (req, res) {
 
 
 
-func GetMessages(c *gin.Context) {
-	version := c.Param("version")
-	fmt.Println("Version", version)
-	if version == "v2" {
-		c.Header("Access-Control-Allow-Origin", "http://localhost:8080")
-	}
-	c.JSON(http.StatusOK, gin.H{"messages": messages})
-}
+// function GetMessages(c *gin.Context) {
+// 	version = c.Param("version")
+// 	fmt.Println("Version", version)
+// 	if version == "v2" {
+// 		c.Header("Access-Control-Allow-Origin", "http://localhost:8080")
+// 	}
+// 	c.JSON(http.StatusOK, gin.H{"messages": messages})
+// }
 
 
 
