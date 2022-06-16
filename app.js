@@ -42,7 +42,23 @@ app.get('/vagas', (req, res) => {
         email: 'joao@gmail.com',
         tel:'73 32111794',
         Description: 'Não consta',
-    })	
+    },{
+        id : '2',
+            nameCompany: 'Oi',
+            address: 'r. A',
+            email: 'testeo@gmail.com',
+            tel:'73 99999 9999',
+            Description: 'Não perto de seu joao'
+    },{
+    id : '3',
+    nameCompany: 'claro',
+    address: 'r. B',
+    email: 'testeB@gmail.com',
+    tel:'73 55555 5555',
+    Description: 'garagem coletiva',
+},
+
+    )	
 
 })
 
