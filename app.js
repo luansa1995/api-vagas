@@ -35,7 +35,7 @@ app.get('/about', (req, res) => {
 })
 
 app.get('/vagas', (req, res) => {
-    res.json({
+    res.json([{
         id : '1',
         nameCompany: 'Vivo',
         address: 'never land',
@@ -56,8 +56,8 @@ app.get('/vagas', (req, res) => {
     email: 'testeB@gmail.com',
     tel:'73 55555 5555',
     Description: 'garagem coletiva',
-    }
-    )	
+    }]
+    )
 
 })
 
