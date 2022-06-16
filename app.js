@@ -1,4 +1,7 @@
 
+// https://api-vagas-itabuna.herokuapp.com/vagas
+res.header("Access-Control-Allow-Origin", "*");
+res.header("Access-Control-Allow-Headers", "Origin, X-Request-Width, Content-Type, Accept");
 
 const express = require('express');
 const app = express();   
@@ -34,8 +37,10 @@ app.get('/vagas', (req, res) => {
     res.json({
         id : '1',
         nameCompany: 'Vivo',
+        address: 'never land',
         email: 'joao@gmail.com',
-        tel:'73 32111794'
+        tel:'73 32111794',
+        Description: 'Não consta'
     })	
 
 })

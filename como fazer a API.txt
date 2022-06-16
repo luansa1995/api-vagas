@@ -1,0 +1,351 @@
+>>> cria respositorio exclusivo para a API
+	>ou seja, tem q ter a pasta .git
+
+>>> instalar o node e npm (geralmente vc já mantem eles instalados por padrão)
+
+>>> $ npm init 
+
+>>> $ npm install express 
+	//apos, já pode checar q dependencia foi adicionada em package.json
+
+>>> //preencha o app.js com os dados abaixo:
+
+
+const express = require('express');
+const app = express();   
+
+const PORT = process.env.PORT || 8877  
+
+app.listen(PORT, () =>{
+    console.log('Escutando na porta: '+ PORT);
+})
+
+// ate 7° passo
+app.get('/about', (req, res) => {
+    res.json({
+        id : '1',
+        name: 'Joao Pedro',
+        email: 'joao@gmail.com',
+        urls: [
+            {
+            type:'github',
+            url: 'http://github.com/joao'
+        
+            },
+            {
+            type: 'youtube',
+            url: 'https:youtube.com/joao'
+            }
+        ]
+    })	
+
+})
+
+app.get('/vagas', (req, res) => {
+    res.json({
+        id : '1',
+        nameCompany: 'Vivo',
+        address: 'never land',
+        email: 'joao@gmail.com',
+        tel:'73 32111794',
+        Description: 'Não consta'
+    })	
+
+})
+
+
+app.get('/', (req,res) => {
+    res.json({
+        msg: 'OK'
+    })
+})
+
+
+
+//------------------------------------------------------------
+
+>>> $ npm install -g nodemon
+
+>>> //momento de testar (2 formas, a melhor é com NODEMON)
+
+> $ node app             //precisa fechar o vscode e abrir pra testar novamente
+> $ nodemon app          // é só dar ctrl+c e executar novamente
+
+
+>>> // na pasta do aplicativo voce cria um arquivo sem extensao chamado 'procfile'
+// é só digitar esse nome e salvar... nao precisa de . ou nome_na_frente.procfile
+//é só  procfile (PURO)
+
+	web: npm start     //só tem essa linha dentro dele
+
+
+>>> em package.json procura >>>>> "scripts": {
+
+> // embaixo de script voce poe >>>   "start": "node app"
+resultado abaixo:
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+
+>>> Por ultimo da comando abaixo :
+
+>$ node app          //se rodou é sucesso !!!
+
+
+>>> git add .  /  git commit -m "..." / git push   //tem que tar upado o repositorio
+
+
+>>> acessa HEROKU email+senha
+>digite um nome rpa sua aplicação(caso nao permita mesmo nome colocado no repositorio git)
+não se preocupe pode por outro ou algo similar
+>clica em DEPLOY
+>clica em se conectar atraves do GITHUB
+>email e senha github pra validar
+>busca o repositorio em questão que voce fez o app  (com as /vagas e o /about)
+>click em conect
+>click em DEPLOY BRANCH
+>click em enable automatic deploy
+> tem que aparecer essa mensagem >>Your app was successfully deployed.
+
+>>>agora é testar direto na URL !!!      
+>// nome_aplicativo_colocado_na_heroku.herokuapp.com
+
+URL GOOGLE>>> 
+api-vagas-itabuna.herokuapp.com
+api-vagas-itabuna.herokuapp.com/about
+api-vagas-itabuna.herokuapp.com/vagas
+
+
+-----------------------------------------------------------------------------
+versão DETALHADA !!!
+
+
+API - tentativa de criar uma API simples 
+
+0° // todo esse programa deve ser criado num NOVO REPOSITORIO  no github para ser 
+//associado ao outro site futuramente (HEROKU)
+
+1°>>> instalar o node e npm 
+	//caso ja instalado node e npm... segue abaixo outras açoes
+	// e instalar o package.json com linha abaixo
+	+  >>>  $ npm init         //caso faça agor anao precisa fazer passo 11
+	
+
+2° >>> instalar o express
+	$ npm install express         //(4.17.1)
+	//ao terminar processo, ja pode checar dependencia adicionada automaticamente no 
+	//package.json !!!
+
+3°>>> //em app.js
+	const express = require('express');
+	const app = express();                     //instanciei
+
+4°>>> // ainda em app.js  - declarando porta
+
+	const PORT = process.env.PORT || 8877             // Porta de variavel do ambiente ou essa porta q ele definiu ai caso primeira opção nao funcione
+
+
+5° //por servidor pra iniciar
+	app.listen(PORT, () =>{
+		console.log('Escutando na porta: '+ PORT);
+})
+
+6° >>> INSTALE O NODEMON
+	$ npm install -g nodemon
+
+	
+7° // formas de rodar programa
+	$ node script.js   //roda o programa node       >>>>>>>> vai aparecer a mensagem "escutando ana porta xxxx" 
+	// com comandpo acima vc atualizando voce tem que parar o console e rodar de novo o comando 
+		$node app.js     //perde muito tempo tendo que fechar o vscode e abrir de novo
+
+	//já abaixo faremos com o nodemon
+	$ nodemon app.js                //agora qual quer atualização ele reinicia sozinho 
+//nodemon.. .é so dar ctrl+c e acionar comando novamente e funciona !!!
+
+7.5° //caso nodemmon nao seja possivel ser acionado pelo erro abaixo
+"execução de scripts  
+foi desabilitada neste sistema. ..."
+
+//Faça isso 
+Isto é uma política de segurança do Powershell para evitar que scripts maliciosos sejam executados indevidamente no seu sistema. Por isso, todos os scripts que não forem assinados terão sua execução bloqueada. Ou seja, a política de execução está como Restricted (que é o padrão).
+
+Você pode controlar estas permissões usando o cmdlet Set-ExecutionPolicy. E pode conferir qual a política de execução atual usando o cmdlet Get-ExecutionPolicy.
+//
+PS C:\Users\LINQ> Get-ExecutionPolicy
+Restricted
+
+PS C:\Users\LINQ> Set-ExecutionPolicy RemoteSigned
+PS C:\Users\LINQ> Get-ExecutionPolicy
+RemoteSigned
+ou va direto pro post e siga as instruções pra fazer no powershell(adm)
+//link :::>>> https://pt.stackoverflow.com/questions/220078/o-que-significa-o-erro-execu%C3%A7%C3%A3o-de-scripts-foi-desabilitada-neste-sistema
+
+
+
+
+8° >>> //agora acima da linha de comando app.listen(PORT...
+	//FAZENDO UMA ROTA... NESSE CASO É O BARRA (/)
+
+	app.get('/', (req,res) => {
+		res.json({
+			msg: 'OK'
+		})
+	})
+
+9° >>>  // acima do requisito 8°
+
+	app.get('/about', (req, res) => {
+    		res.json({
+        id : '1',
+        name: 'Joao',
+        email: 'joao@gmail.com',
+        urls: [
+            {
+            type:'github',
+            url: 'http://github.com/joao'
+        
+            },
+            {
+            type: 'youtube',
+            url: 'https:youtube.com/joao'
+            }
+        ]
+    })	
+
+})
+
+
+
+10°  // na pasta do aplicativo voce cria um arquivo sem extensao chamado 'procfile'
+	web: npm start
+
+
+
+11° // criar a package.json
+
+	$ npm init ~y       // se já criou no 1° passo pula essa etapa
+
+
+12° // Caso voce só tenha criado o package.json na fase final ...  como foi este casdo voce precisa deste comando
+
+	$ npm install express --save
+	//issso precisa praa que ele aparece na package.json !!!
+	//agora o express vai aparecer nas dependencias no package.json !
+//se tiver criado o pacage.json depois instalado o express... pula etapa 12° TBM !
+
+13° // em qual quer lugar voce cria um scripts .. no caso dele foi abaixo de ...
+	"name" ...
+	"version": ...
+	},
+
+	//logo abaixo  desses codigos vc escreve o que tá abaixo:
+
+	"scripts": {
+	 "start": "node app"
+	},
+//OBS. caso ja tenha criado o 'script' automaticamente... oq deve ter acontecido já
+//é so add o "start": "node app" dentro de "script"
+
+
+14° - POR ULTIMO ... COMANDO NA PASTA
+$ node app             // E VÊ SE RODA !!!
+
+
+15° - tudo pronto então i agora é so ir nao site //HEROKU
+
+//HEROKU> ACESSA SEU EMAIL E SENHA (acessou)
+>DIGITA UM NOME pra sua aplicação no heroku
+	(caso nao possa ser o mesmo nome dado no repositorio pode ser diferente)
+>vai em DEPLOY
+>clica em gitHub e se conecta atraves dele...
+>bota senha do github pra validar
+>conecta essa aplicação do HEROKU em associação ao
+ repositório em questão que será utilizado
+>click em conect !!
+	> se virar o botao de disconect... é pq conectou
+>clica em DEPLOY BRANCH agora
+> clica em enable automatic deploy 
+	> tem que aparecer isso "Automatic deploys from main are enabled"
+> tem que aparecer essa mensagem >>Your app was successfully deployed.  
+
+agora é testar direto na URL !!!      // nome_aplicativo_colocado_na_heroku.herokuapp.com
+
+URL GOOGLE>>> 
+api-vagas-itabuna.herokuapp.com
+api-vagas-itabuna.herokuapp.com/about
+api-vagas-itabuna.herokuapp.com/vagas
+
+ 
+----------------------------------------------
+//app.js -  no final fica assim
+
+
+const express = require('express');
+const app = express();   
+
+const PORT = process.env.PORT || 8877  
+
+app.listen(PORT, () =>{
+    console.log('Escutando na porta: '+ PORT);
+})
+
+// ate 7° passo
+app.get('/about', (req, res) => {
+    res.json({
+        id : '1',
+        name: 'Joao',
+        email: 'joao@gmail.com',
+        urls: [
+            {
+            type:'github',
+            url: 'http://github.com/joao'
+        
+            },
+            {
+            type: 'youtube',
+            url: 'https:youtube.com/joao'
+            }
+        ]
+    })	
+
+})
+
+
+app.get('/', (req,res) => {
+    res.json({
+        msg: 'OK'
+    })
+})
+------------------------------------------------------
+//package.json - fica assim
+
+{
+  "name": "api-tentativa01",
+  "version": "1.0.0",
+  "description": "API - tentativa de criar uma API simples",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
+--------------------------------
+//procfile - fica assim
+
+web: npm start
+-----------------------------------
+
+
+
+ 
+
+
+
+ 
