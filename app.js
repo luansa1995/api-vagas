@@ -4,8 +4,13 @@
 // res.header("Access-Control-Allow-Origin", "*");
 // res.header("Access-Control-Allow-Headers", "Origin, X-Request-Width, Content-Type, Accept");
 
+const { response } = require('express');
 const express = require('express');
 const app = express();   
+
+response.setHeader(
+    "Access-Control-Allow-Origin: *"
+);
 
 const PORT = process.env.PORT || 8877  
 
@@ -40,6 +45,9 @@ app.get('/vagas', (req, res) => {
 
 })
 
+app.get('/', function (req, res) {
+    res.send("Olá Luan, Seja Bem Vindo!");
+});
 
 // app.get('/', (req,res) => {
 //     res.json({
@@ -47,11 +55,10 @@ app.get('/vagas', (req, res) => {
 //     })
 // })
 
+
+
 //OPÇÃO DE APARECE UM TEXTO SIMPLES  
 
-app.get('/', function (req, res) {
-    res.send("Olá Luan, Seja Bem Vindo!");
-});
 
 
 
