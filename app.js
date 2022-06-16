@@ -1,7 +1,8 @@
 
 // https://api-vagas-itabuna.herokuapp.com/vagas
-res.header("Access-Control-Allow-Origin", "*");
-res.header("Access-Control-Allow-Headers", "Origin, X-Request-Width, Content-Type, Accept");
+
+// res.header("Access-Control-Allow-Origin", "*");
+// res.header("Access-Control-Allow-Headers", "Origin, X-Request-Width, Content-Type, Accept");
 
 const express = require('express');
 const app = express();   
