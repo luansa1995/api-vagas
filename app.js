@@ -4,7 +4,7 @@
 // res.header("Access-Control-Allow-Origin", "*");
 // res.header("Access-Control-Allow-Headers", "Origin, X-Request-Width, Content-Type, Accept");
 
-const { response } = require('express');
+
 const express = require('express');
 const app = express();  
 // const cors = require('cors'); 
@@ -46,15 +46,15 @@ app.get('/vagas', (req, res) => {
 
 })
 
-// app.get('/', function (req, res) {
-//     res.send("Olá Luan, Seja Bem Vindo!");
-// });
+app.get('/', function (req, res) {
+    res.send("Olá Luan, Seja Bem Vindo!");
+});
 
-app.get('/', (req,res) => {
-    res.json({
-        msg: 'OK'
-    })
-})
+// app.get('/', (req,res) => {
+//     res.json({
+//         msg: 'OK'
+//     })
+// })
 
 
 
