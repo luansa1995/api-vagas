@@ -7,7 +7,7 @@
 
 const express = require('express');
 const app = express();  
-// const cors = require('cors'); 
+const cors = require('cors'); 
                             // nao funcionou
                 // response.setHeader(
                 //     "Access-Control-Allow-Origin: *"
@@ -18,6 +18,20 @@ const PORT = process.env.PORT || 8877
 app.listen(PORT, () =>{
     console.log('Escutando na porta: '+ PORT);
 })
+
+
+
+app.use(express.json());
+
+//https://celke.com.br/artigo/consumir-dados-da-api-propria-com-react
+
+app.use((req, res, next) => {
+    //console.log("Acessou o Middleware!");
+    res.header("Access-Control-Allow-Origin", "*");
+    res.header("Access-Control-Allow-Methods", 'GET,PUT,POST,DELETE');
+    app.use(cors());
+    next();
+}); 
 
 app.get('/vagas', (req, res) => {
     res.json([{
