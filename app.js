@@ -30,48 +30,72 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '1',
-        nameCompany: 'Vivo',  
-        address: 'never land',
-        email: 'joao@gmail.com',
-        tel:'73 32111794',
-        Description: 'Não consta',
+        nameCompany: 'heineken Revendedor autorizado', 
+        job:'Cargo: Motorista de entrega e manobrista', 
+        contact : 'rhcurriculos@ios.grupojsg.com.br',
+        Description: 'Mais informaçõs sobre a vaga: https://ibb.co/pRJs4F2',
     },{
         id : '2',
-            nameCompany: 'Oi',
-            address: 'r. A',
-            email: 'testeo@gmail.com',
-            tel:'73 99999 9999',
-            Description: 'Não perto de seu joao'
+        nameCompany: 'heineken Revendedor autorizado',
+        job:'Cargo: Auxiliar de armazém', 
+        contact: 'rhcurriculos@ios.grupojsg.com.br',
+        Description: 'Mais informaçõs sobre a vaga: https://ibb.co/pRJs4F2'
     },{
-    id : '3',
-    nameCompany: 'claro',
-    address: 'r. B',
-    email: 'testeB@gmail.com',
-    tel:'73 55555 5555',
-    Description: 'garagem coletiva',
+        id : '3',
+        nameCompany: 'heineken Revendedor autorizado', 
+        job:'Cargo: Aprendiz', 
+        contact : 'rhcurriculos@ios.grupojsg.com.br',
+        Description: 'Mais informaçõs sobre a vaga: https://ibb.co/pRJs4F2',
     },{
         id : '4',
-        nameCompany: 'teste4',  
-        address: 'never land',
-        email: 'joao@gmail.com',
-        tel:'73 32111794',
-        Description: 'Não consta',
+        nameCompany: 'heineken Revendedor autorizado', 
+        job:'Cargo: Auxiliar de entrega', 
+        contact : 'rhcurriculos@ios.grupojsg.com.br',
+        Description: 'Mais informaçõs sobre a vaga: https://ibb.co/pRJs4F2',
     },{
         id : '5',
-        nameCompany: 'teste5',  
-        address: 'never land',
-        email: 'joao@gmail.com',
-        tel:'73 32111794',
-        Description: 'Não consta',
+        nameCompany: 'heineken Revendedor autorizado', 
+        job:'Cargo: Vendedor ilhéus/itabuna', 
+        contact : 'rhcurriculos@ios.grupojsg.com.br',
+        Description: 'Mais informaçõs sobre a vaga: https://ibb.co/pRJs4F2',
     },{
         id : '6',
-        nameCompany: 'teste6',  
-        address: 'never land',
-        email: 'joao@gmail.com',
-        tel:'73 32111794',
-        Description: 'Não consta',
-    }]
-    )
+        nameCompany: 'heineken Revendedor autorizado', 
+        job:'Cargo: Operador de empilhadeira', 
+        contact : 'rhcurriculos@ios.grupojsg.com.br',
+        Description: 'Mais informaçõs sobre a vaga: https://ibb.co/pRJs4F2',
+    },
+
+    // ,{
+    // id : '3',
+    // nameCompany: 'claro',
+    // address: 'r. B',
+    // email: 'testeB@gmail.com',
+    // tel:'73 55555 5555',
+    // Description: 'garagem coletiva',
+    // },{
+    //     id : '4',
+    //     nameCompany: 'teste4',  
+    //     address: 'never land',
+    //     email: 'joao@gmail.com',
+    //     tel:'73 32111794',
+    //     Description: 'Não consta',
+    // },{
+    //     id : '5',
+    //     nameCompany: 'teste5',  
+    //     address: 'never land',
+    //     email: 'joao@gmail.com',
+    //     tel:'73 32111794',
+    //     Description: 'Não consta',
+    // },{
+    //     id : '6',
+    //     nameCompany: 'teste6',  
+    //     address: 'never land',
+    //     email: 'joao@gmail.com',
+    //     tel:'73 32111794',
+    //     Description: 'Não consta',
+    // }
+])
 
 })
 
