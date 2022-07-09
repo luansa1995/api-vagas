@@ -30,10 +30,10 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '1',
-        nameCompany: 'heineken Revendedor autorizado', 
+        nameCompany: 'teste heineken Revendedor autorizado', 
         job:'Cargo: Motorista de entrega e manobrista', 
         contact : 'rhcurriculos@ios.grupojsg.com.br',
-        Description: 'Mais informaçõs sobre a vaga: https://ibb.co/pRJs4F2',
+        Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>',
     },{
         id : '2',
         nameCompany: 'heineken Revendedor autorizado',
