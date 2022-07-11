@@ -30,40 +30,40 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '1',
-        nameCompany: 'heineken Revendedor autorizado', 
+        nameCompany: 'Heineken Revendedor autorizado', 
         job:'Cargo: Motorista de entrega e manobrista', 
         contact : 'rhcurriculos@ios.grupojsg.com.br',
         Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>',
     },{
         id : '2',
-        nameCompany: 'heineken Revendedor autorizado',
+        nameCompany: 'Heineken Revendedor autorizado',
         job:'Cargo: Auxiliar de armazém', 
         contact: 'rhcurriculos@ios.grupojsg.com.br',
-        Description: 'Mais informaçõs sobre a vaga: https://ibb.co/pRJs4F2'
+        Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
     },{
         id : '3',
-        nameCompany: 'heineken Revendedor autorizado', 
+        nameCompany: 'Heineken Revendedor autorizado', 
         job:'Cargo: Aprendiz', 
         contact : 'rhcurriculos@ios.grupojsg.com.br',
-        Description: 'Mais informaçõs sobre a vaga: https://ibb.co/pRJs4F2',
+        Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
     },{
         id : '4',
         nameCompany: 'heineken Revendedor autorizado', 
         job:'Cargo: Auxiliar de entrega', 
         contact : 'rhcurriculos@ios.grupojsg.com.br',
-        Description: 'Mais informaçõs sobre a vaga: https://ibb.co/pRJs4F2',
+        Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
     },{
         id : '5',
         nameCompany: 'heineken Revendedor autorizado', 
         job:'Cargo: Vendedor ilhéus/itabuna', 
         contact : 'rhcurriculos@ios.grupojsg.com.br',
-        Description: 'Mais informaçõs sobre a vaga: https://ibb.co/pRJs4F2',
+        Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
     },{
         id : '6',
         nameCompany: 'heineken Revendedor autorizado', 
         job:'Cargo: Operador de empilhadeira', 
         contact : 'rhcurriculos@ios.grupojsg.com.br',
-        Description: 'Mais informaçõs sobre a vaga: https://ibb.co/pRJs4F2',
+        Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
     },
 
     // ,{
