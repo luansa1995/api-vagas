@@ -30,9 +30,15 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '.',
+        nameCompany: 'Grupobig/MAXXI', 
+        job:'Repositor  ', 
+        contact : '-',
+        Description: 'Local: Itabuna-Ba / Requisitos: Ensino Fundamental completo, Desejável experiência como Repositor, Necessário disponibilidade para trabalhar em escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/repositor-pcd-maxxi-itabuna/62952cf40a3a81392248b289?utm_source=website">mais info</a>'
+    },{
+        id : '.',
         nameCompany: 'Grupobig', 
         job:'Cargo: Padeiro', 
-        contact : 'innovemedcentro@hotmail.com',
+        contact : '-',
         Description: 'Local: Itabuna-Ba BAIRRO: JARDIM VITÓRIA / Requisitos:Ensino Fundamental Completo, experiência, escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/padeiro/62cc07fa9961aadf84fe4a1d?utm_source=website">mais info</a>'
     },{
         id : '.',
