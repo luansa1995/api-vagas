@@ -30,36 +30,54 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '1',
+        nameCompany: 'Innove med centro médico e odontológico', 
+        job:'Cargo: Recepcionista', 
+        contact : 'innovemedcentro@hotmail.com',
+        Description: 'Local: UBATÃ',
+    },{
+        id : '2',
+        nameCompany: 'Innove med centro médico e odontológico', 
+        job:'Cargo: Aux./Técnico em saúde bucal ', 
+        contact : 'innovemedcentro@hotmail.com',
+        Description: 'Local: UBATÃ',
+    },{
+        id : '3',
+        nameCompany: 'Innove med centro médico e odontológico', 
+        job:'Cargo: Tec. em enfermagem', 
+        contact : 'innovemedcentro@hotmail.com',
+        Description: 'Local: UBATÃ',
+    },{
+        id : '4',
         nameCompany: 'Heineken Revendedor autorizado', 
         job:'Cargo: Motorista de entrega e manobrista', 
         contact : 'rhcurriculos@ios.grupojsg.com.br',
         Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>',
     },{
-        id : '2',
+        id : '5',
         nameCompany: 'Heineken Revendedor autorizado',
         job:'Cargo: Auxiliar de armazém', 
         contact: 'rhcurriculos@ios.grupojsg.com.br',
         Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
     },{
-        id : '3',
+        id : '6',
         nameCompany: 'Heineken Revendedor autorizado', 
         job:'Cargo: Aprendiz', 
         contact : 'rhcurriculos@ios.grupojsg.com.br',
         Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
     },{
-        id : '4',
+        id : '7',
         nameCompany: 'Heineken Revendedor autorizado', 
         job:'Cargo: Auxiliar de entrega', 
         contact : 'rhcurriculos@ios.grupojsg.com.br',
         Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
     },{
-        id : '5',
+        id : '8',
         nameCompany: 'Heineken Revendedor autorizado', 
         job:'Cargo: Vendedor ilhéus/itabuna', 
         contact : 'rhcurriculos@ios.grupojsg.com.br',
         Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
     },{
-        id : '6',
+        id : '9',
         nameCompany: 'Heineken Revendedor autorizado', 
         job:'Cargo: Operador de empilhadeira', 
         contact : 'rhcurriculos@ios.grupojsg.com.br',
