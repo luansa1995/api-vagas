@@ -30,27 +30,39 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '.',
+        nameCompany: 'Sipolatti', 
+        job:'Cargo: AJUDANTE DE CARGA E DESCARGA', 
+        contact : '<a href="https://sipolatti.gupy.io/job/eyJqb2JJZCI6MjQ3NTYzOCwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?utm_source=EMPREGAILHEUS.COM&utm_medium=EMPREGAILHEUS.COM&utm_campaign=EMPREGAILHEUS.COM">Cadastre-se</a>',
+        Description: 'Local: Itabuna-Ba | publicada 02/07 '
+    },{
+        id : '.',
+        nameCompany: 'Grupobig', 
+        job:'Cargo: Operador de Loja - Textil', 
+        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62cc392460fb0d1a3942b3d5&1=1utm_source%3Dwebsite&action=email">Cadastre-se</a>',
+        Description: 'Local: Itabuna-Ba BAIRRO: JARDIM VITÓRIA / Requisitos:Ensino Médio Completo, Desejável experiências com atendimento ao cliente, escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/operador-de-loja-textil/62cc392460fb0d1a3942b3d5?utm_source=website">mais info</a>'
+    },{
+        id : '.',
         nameCompany: 'Grupobig', 
         job:'Cargo: Operador de Loja - Frente de Caixa', 
-        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62cc36f62663e17abb3f7263&1=1utm_source%3Dwebsite&action=email">link</a>',
-        Description: 'Local: Itabuna-Ba BAIRRO: JARDIM VITÓRIA / Requisitos:Ensino Fundamental Completo, Desejável experiências com atendimento ao cliente, escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/padeiro/62cc07fa9961aadf84fe4a1d?utm_source=website">mais info</a>'
+        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62cc36f62663e17abb3f7263&1=1utm_source%3Dwebsite&action=email">Cadastre-se</a>',
+        Description: 'Local: Itabuna-Ba BAIRRO: JARDIM VITÓRIA / Requisitos:Ensino Médio Completo, Desejável experiências com atendimento ao cliente, escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/padeiro/62cc07fa9961aadf84fe4a1d?utm_source=website">mais info</a>'
     },{
         id : '.',
         nameCompany: 'Grupobig', 
         job:'Cargo: Auxiliar de Perecíveis/repositor', 
-        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62952cf40a3a81392248b289&1=1utm_source%3Dwebsite&action=email">link</a>',
+        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62952cf40a3a81392248b289&1=1utm_source%3Dwebsite&action=email">Cadastre-se</a>',
         Description: 'Local: Itabuna-Ba BAIRRO: JARDIM VITÓRIA / Requisitos:Ensino Fundamental Completo, experiência, escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/auxiliar-de-pereciveis/62cc02ca78c6036ae9061809?utm_source=website">mais info</a>'
     },{
         id : '.',
         nameCompany: 'Grupobig/MAXXI', 
         job:'Repositor PCD', 
-        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62cc02ca78c6036ae9061809&1=1utm_source%3Dwebsite&action=email">link</a>',
+        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62cc02ca78c6036ae9061809&1=1utm_source%3Dwebsite&action=email">Cadastre-se</a>',
         Description: 'Local: Itabuna-Ba / Requisitos: Ensino Fundamental completo, Desejável experiência como Repositor, Necessário disponibilidade para trabalhar em escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/repositor-pcd-maxxi-itabuna/62952cf40a3a81392248b289?utm_source=website">mais info</a>'
     },{
         id : '.',
         nameCompany: 'Grupobig', 
         job:'Cargo: Padeiro', 
-        contact : '-',
+        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62cc07fa9961aadf84fe4a1d&1=1utm_source%3Dwebsite&action=email">Cadastre-se</a>',
         Description: 'Local: Itabuna-Ba BAIRRO: JARDIM VITÓRIA / Requisitos:Ensino Fundamental Completo, experiência, escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/padeiro/62cc07fa9961aadf84fe4a1d?utm_source=website">mais info</a>'
     },{
         id : '.',
