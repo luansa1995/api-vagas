@@ -30,6 +30,12 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '.',
+        nameCompany: 'Grupobig', 
+        job:'Cargo: Padeiro', 
+        contact : 'innovemedcentro@hotmail.com',
+        Description: 'Local: Itabuna-Ba BAIRRO: JARDIM VITÓRIA / Requisitos:Ensino Fundamental Completo, experiência, escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/padeiro/62cc07fa9961aadf84fe4a1d?utm_source=website">mais info</a>'
+    },{
+        id : '.',
         nameCompany: 'SGS MONTAGEM INDUSTRIAL ELETROMECANICAS LTDA', 
         job:'Cargo: ENCANADOR INDUSTRIAL', 
         contact : ' adm@sgsmontagemindustrial.com.br',
