@@ -30,6 +30,12 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '.',
+        nameCompany: 'Vivo - Alea Vivo', 
+        job:'Cargo: Vendedor(a) Interno(a)', 
+        contact : '<a href="https://aleavivo.gupy.io/job/eyJqb2JJZCI6MjA0OTk2MSwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page">Cadastre-se</a>',
+        Description: 'Local: Itabuna-ba | Salário Fixo + Comissão+ Benefícios | Ensino Médio Completo | Experiência em vendas'
+    },{
+        id : '.',
         nameCompany: 'SINEBAHIA | Atualizado dia 16-07-22', 
         job:'Cargo: Muitas vagas', 
         contact : 'Cadastre-se físicamente no Sinebahia',
