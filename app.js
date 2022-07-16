@@ -30,6 +30,12 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '.',
+        nameCompany: 'Móveis Fênix', 
+        job:'Cargo: OPERADORA DE CAIXA', 
+        contact : '<a href="rhmoveisfenixitabuna@gmail.com">Cadastre-se</a>',
+        Description: 'Local: Itabuna-Ba RESIDIR EM ITABUNA; ENS MÉDIO COMPLETO; CONHECIMENTO EM INFORMÁTICA., <a href="https://jobs.kenoby.com/grupobig/job/operador-de-loja-textil/62cc392460fb0d1a3942b3d5?utm_source=website">mais info</a>'
+    },{
+        id : '.',
         nameCompany: 'Sipolatti', 
         job:'Cargo: AJUDANTE DE CARGA E DESCARGA', 
         contact : '<a href="https://sipolatti.gupy.io/job/eyJqb2JJZCI6MjQ3NTYzOCwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?utm_source=EMPREGAILHEUS.COM&utm_medium=EMPREGAILHEUS.COM&utm_campaign=EMPREGAILHEUS.COM">Cadastre-se</a>',
