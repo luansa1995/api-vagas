@@ -32,8 +32,8 @@ app.get('/vagas', (req, res) => {
         id : '.',
         nameCompany: 'Móveis Fênix', 
         job:'Cargo: OPERADORA DE CAIXA', 
-        contact : '<a href="rhmoveisfenixitabuna@gmail.com">Cadastre-se</a>',
-        Description: 'Local: Itabuna-Ba RESIDIR EM ITABUNA; ENS MÉDIO COMPLETO; CONHECIMENTO EM INFORMÁTICA., <a href="https://jobs.kenoby.com/grupobig/job/operador-de-loja-textil/62cc392460fb0d1a3942b3d5?utm_source=website">mais info</a>'
+        contact : 'Cadastre-se: rhmoveisfenixitabuna@gmail.com',
+        Description: 'Local: Itabuna-Ba RESIDIR EM ITABUNA; ENS MÉDIO COMPLETO; CONHECIMENTO EM INFORMÁTICA.'
     },{
         id : '.',
         nameCompany: 'Sipolatti', 
