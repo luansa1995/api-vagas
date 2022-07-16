@@ -30,6 +30,12 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '.',
+        nameCompany: 'SINEBAHIA | Atualizado dia 16-07-22', 
+        job:'Cargo: Muitas vagas', 
+        contact : 'Cadastre-se físicamente no Sinebahia',
+        Description: '<a href="http://www.setre.ba.gov.br/modules/conteudo/conteudo.php?conteudo=280">mais info</a>'
+    },{
+        id : '.',
         nameCompany: 'Móveis Fênix', 
         job:'Cargo: OPERADORA DE CAIXA', 
         contact : 'Cadastre-se: rhmoveisfenixitabuna@gmail.com',
