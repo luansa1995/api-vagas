@@ -30,6 +30,12 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '.',
+        nameCompany: 'Pet Delle' , 
+        job:'Cargo: Vendedor de Loja', 
+        contact : ' (73) 998265007',
+        Description: ' Em Itabuna/BA. Vendedor em pet shop, com boa capacidade de comunicação e perfil para trabalhar em equipe '
+    },{
+        id : '.',
         nameCompany: 'Vivo - Alea Vivo', 
         job:'Cargo: Vendedor(a) Interno(a)', 
         contact : '<a href="https://aleavivo.gupy.io/job/eyJqb2JJZCI6MjA0OTk2MSwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page">Cadastre-se</a>',
