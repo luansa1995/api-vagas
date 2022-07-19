@@ -30,6 +30,13 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '.',
+        nameCompany: ' UNIÃO Itabuna', 
+        job:'Cargo: Vendedor(a) Interno(a) ', 
+        contact : ' <a href="https://fortbras.com.br/trabalhe-conosco/"  > Cadastre-se</a>',
+        Description: '<a href="https://fortbras.com.br/trabalhe-conosco/"> Mais informações</a>'
+    },
+{
+        id : '.',
         nameCompany: 'Riachuelo ', 
         job:'Cargo: Assistente de Atendimento', 
         contact : '-',
