@@ -30,6 +30,12 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '.',
+        nameCompany: 'Riachuelo ', 
+        job:'Cargo: Assistente de Atendimento', 
+        contact : '-',
+        Description: 'Responsável por realizar o atendimento ao cliente e venda dos produtos financeiros; Oferecer o cartão Riachuelo e os produtos financeiros para todos os clientes; Atender o cliente em todos os pontos de contato; Executar os processos operacionais do crediário;'
+    },{
+        id : '.',
         nameCompany: 'Cinemark Brasil ', 
         job:'Cargo: Gerente de Operações', 
         contact : '-',

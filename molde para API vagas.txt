@@ -1,23 +1,4 @@
 
-    
-{
-        id : '.',
-        nameCompany: 'Cinemark Brasil ', 
-        job:'Cargo: Gerente de Operações', 
-        contact : '-',
-        Description: 'Desejável conhecimentos em normas de vigilância sanitária e controle de metas, indicadores e resultados em vendas; Formao superior completa;  (Pacote Office); Experiência com gerenciamento de grandes equipes em operaes de varejo;.'
-    },
-
-
-    
-{
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : ' ',
-        Description: ''
-    },
-
 
 
     
