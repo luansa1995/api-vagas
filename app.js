@@ -30,6 +30,12 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '.',
+        nameCompany: 'Cinemark Brasil ', 
+        job:'Cargo: Gerente de Operações', 
+        contact : '-',
+        Description: 'Desejável conhecimentos em normas de vigilância sanitária e controle de metas, indicadores e resultados em vendas; Formao superior completa;  (Pacote Office); Experiência com gerenciamento de grandes equipes em operaes de varejo;.'
+    },{
+        id : '.',
         nameCompany: 'Pet Delle' , 
         job:'Cargo: Vendedor de Loja', 
         contact : ' (73) 998265007',
