@@ -2,31 +2,18 @@
 
 
     
-{
-        id : '.',
-        nameCompany: ' UNIÃO Itabuna', 
-        job:'Cargo: ', 
-        contact : ' <a href="https://fortbras.com.br/trabalhe-conosco/"  > Cadastre-se</a>',
-        Description: '<a href="https://fortbras.com.br/trabalhe-conosco/"> Mais informações</a>'
-    },
 
 
     
-{
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : ' ',
-        Description: ''
-    },
+
 
 
     {
         id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : ' ',
-        Description: ''
+        nameCompany: 'Casa do Construtor', 
+        job:'Cargo: Mecânico ', 
+        contact : '<a href="https://portal.kenoby.com/casadoconstrutorlojas/login?redirect=%2Fcasadoconstrutorlojas%2Fcadastrar%2F62dad6539326d679b20d690a&1=1utm_source%3Dwebsite&action=email"  > Cadastre-se</a>',',
+        Description: 'Ensino médio Completo; Curso técnico mecânico; Carteira de habilitação AB.'
     },
 
 

@@ -30,6 +30,18 @@ app.use((req, res, next) => {
 app.get('/vagas', (req, res) => {
     res.json([{
         id : '.',
+        nameCompany: 'Casa do Construtor', 
+        job:'Cargo: Mecânico ', 
+        contact : '<a href="https://portal.kenoby.com/casadoconstrutorlojas/login?redirect=%2Fcasadoconstrutorlojas%2Fcadastrar%2F62dad6539326d679b20d690a&1=1utm_source%3Dwebsite&action=email"  > Cadastre-se</a>',
+        Description: 'Ensino médio Completo; Curso técnico mecânico; Carteira de habilitação AB.'
+    },{
+        id : '.',
+        nameCompany: 'Grupo Indiana', 
+        job:'Cargo: OPERADOR DE AGENDAMENTO', 
+        contact : ' <a href="https://grupoindiana.gupy.io/job/eyJqb2JJZCI6MjY2MDE4NSwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page"  > Cadastre-se</a>',
+        Description: 'Ensino médio completo, experiência anterior na área de telemarketing será um diferencial'
+    },{
+        id : '.',
         nameCompany: ' UNIÃO Itabuna', 
         job:'Cargo: Vendedor(a) Interno(a) ', 
         contact : ' <a href="https://fortbras.com.br/trabalhe-conosco/"  > Cadastre-se</a>',
