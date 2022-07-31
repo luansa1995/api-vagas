@@ -28,7 +28,25 @@ app.use((req, res, next) => {
 }); 
 
 app.get('/vagas', (req, res) => {
-    res.json([{
+    res.json([   {
+        id : '.',
+        nameCompany: 'Fortbras ', 
+        job:'Cargo: VENDEDOR(A) INTERNO(A) BALCÃO', 
+        contact : 'contato: <a href="https://fortbras.gupy.io/job/eyJqb2JJZCI6MjY3ODY5MSwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page"></a>',
+        Description: 'Ensino médio completo; Sólida experiência com venda de autopeças de forma ativa por telefone; Disciplina no cumprimento de processos;'
+    },{
+        id : '.',
+        nameCompany: 'Pague Menos - GOES CALMON', 
+        job:'Cargo: ATENDENTE DE FARMÁCIA', 
+        contact : 'contato: <a href="https://portal.kenoby.com/paguemenoslojas/login?redirect=%2Fpaguemenoslojas%2Fcadastrar%2F62e1a12f539358469cf270de&1=1utm_source%3Dwebsite&action=email">Cadastre-se </a> ',
+        Description: 'Ensino médio completo; Conhecimento em Informática Básica; Desejável experiência com vendas de medicamentos; Desejável curso de auxiliar de farmácia.'
+    },{
+        id : '.',
+        nameCompany: 'Coelba ', 
+        job:'Cargo: APRENDIZ ADMINISTRATIVO (PCD)', 
+        contact : 'contact: -',
+        Description: 'Precisa: Ensino médio cursando ou completo;Office básico (Excel, Word, Windows, Internet) e Power Point; entre outros'
+    },{
         id : '.',
         nameCompany: 'Casa do Construtor', 
         job:'Cargo: Mecânico ', 
