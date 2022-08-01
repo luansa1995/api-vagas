@@ -32,7 +32,7 @@ app.get('/vagas', (req, res) => {
         id : '.',
         nameCompany: 'Fortbras ', 
         job:'Cargo: VENDEDOR(A) INTERNO(A) BALCÃO', 
-        contact : 'contato: <a href="https://fortbras.gupy.io/job/eyJqb2JJZCI6MjY3ODY5MSwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page"></a>',
+        contact : 'contato: <a href="https://fortbras.gupy.io/job/eyJqb2JJZCI6MjY3ODY5MSwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page">Cadastre-se</a>',
         Description: 'Ensino médio completo; Sólida experiência com venda de autopeças de forma ativa por telefone; Disciplina no cumprimento de processos;'
     },{
         id : '.',
