@@ -28,7 +28,26 @@ app.use((req, res, next) => {
 }); 
 
 app.get('/vagas', (req, res) => {
-    res.json([   {
+    res.json([  
+        {
+            id : '.',
+            nameCompany: 'Tarik Fontes Plaza Hotel - postagem 03-08-22', 
+            job:'Cargo: ESTÁGIO ADMINISTRAÇÃO', 
+            contact : 'contato: currículo por Whatsapp:  (73) 3214-8800 ',
+            Description: 'Atividades pertinentes ao cargo'
+        },{
+        id : '.',
+        nameCompany: 'Tarik Fontes Plaza Hotel ', 
+        job:'Cargo: RECEPÇÃO ', 
+        contact : 'contato: currículo por Whatsapp:  (73) 3214-8800 ',
+        Description: 'RECEPÇÃO '
+    },  {
+        id : '.',
+        nameCompany: 'PLD Soluções', 
+        job:'Cargo: VENDEDORA', 
+        contact : 'contato: pld.suporteadm@gmail.com  (obs.: mandar email com Assunto: "Cod. DET015 - Vendedora")',
+        Description: 'Vendas de perfumes, bolsas, acessórios, serviço de caixa, embalagens do produto, conservação da loja e atividades correlacionadas.'
+    },{
         id : '.',
         nameCompany: 'Fortbras ', 
         job:'Cargo: VENDEDOR(A) INTERNO(A) BALCÃO', 
