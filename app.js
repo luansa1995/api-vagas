@@ -28,10 +28,59 @@ app.use((req, res, next) => {
 }); 
 
 app.get('/vagas', (req, res) => {
-    res.json([  
+    res.json([    
         {
             id : '.',
-            nameCompany: 'Tarik Fontes Plaza Hotel - postagem 03-08-22', 
+            nameCompany: 'Móveis Fênix - publicada 09-08-22', 
+            job:'Cargo: CARREGADOR ', 
+            contact : 'contato: rhmoveisfenixitabuna@gmail.com',
+            Description: 'Residir em Itabuna; Maior de 18 anos; Experiência como carregador;'
+        },        
+        {
+            id : '.',
+            nameCompany: 'Drogarias Costa', 
+            job:'Cargo: BALCONISTA ', 
+            contact : 'contato:  pessoal@drogariascosta.com.br ',
+            Description: 'Boa comunicação; Disponibilidade; Experiência de pelo menos um ano em balcão de farmácia'
+        },
+        {
+            id : '.',
+            nameCompany: 'Drogarias Costa', 
+            job:'Cargo: PERFUMARIA', 
+            contact : 'contato:  pessoal@drogariascosta.com.br ',
+            Description: 'Boa comunicação; Disponibilidade; Experiência de pelo menos um ano em perfumaria'
+        },  
+        {
+            id : '.',
+            nameCompany: ' MAXXI ITABUNA', 
+            job:'Cargo: APRENDIZ ', 
+            contact : 'contato: <a href="https://jobs.kenoby.com/grupobig/job/aprendizmaxxi-itabuna/62ecc0060633291e32c2e4f6?utm_source=website"  > Cadastre-se</a>',
+            Description: 'Auxiliar a fazer devoluções de produtos; Auxiliar a fazer devoluções de produtos; Desejável conhecimento do Pacote Office; Ensino Fundamental Cursando a partir do 7ª ano;'
+        },
+        {
+        id : '.',
+        nameCompany: 'Grupo Big ', 
+        job:'Cargo: REPOSITOR ', 
+        contact : 'contato:  <a href="https://portal.kenoby.com/casadoconstrutorlojas/login?redirect=%2Fcasadoconstrutorlojas%2Fcadastrar%2F62dad6539326d679b20d690a&1=1utm_source%3Dwebsite&action=email"  > Cadastre-se</a> ',
+        Description: 'Ensino Médio completo; Desejável experiência como Repositor; Necessário disponibilidade para trabalhar em escala 6×1 (feriados e finais de semana);'
+    },  
+        {
+        id : '.',
+        nameCompany: 'Grupo Indiana -  publicada 05-08-22', 
+        job:'Cargo: ASSISTENTE ADMINISTRATIVO APRENDIZ', 
+        contact : 'contato: ',
+        Description: 'Salário fixo no valor de R$ 606,00; Comprometimento com a empresa; Carteira de Reservista(CASO 18+); Idade entre 14 e 21 anos; '
+    },
+        {
+           id : '.',
+           nameCompany: 'Grupo Indiana', 
+           job:'Cargo: AUXILIAR DE CONSULTOR TÉCNICO', 
+           contact : '<a href="https://grupoindiana.gupy.io/job/eyJqb2JJZCI6MjczODMwOCwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page"  > Cadastre-se</a>',
+           Description: 'Ensino médio completo; CNH B; Experiência anterior com atendimento ao público.'
+       },
+        {
+            id : '.',
+            nameCompany: 'Tarik Fontes Plaza Hotel - publicada 03-08-22', 
             job:'Cargo: ESTÁGIO ADMINISTRAÇÃO', 
             contact : 'contato: currículo por Whatsapp:  (73) 3214-8800 ',
             Description: 'Atividades pertinentes ao cargo'

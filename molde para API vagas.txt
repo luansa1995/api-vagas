@@ -29,62 +29,24 @@
 
      
 
-    {
-        id : '.',
-        nameCompany: 'Tarik Fontes Plaza Hotel', 
-        job:'Cargo: ESTÁGIO ADMINISTRAÇÃO', 
-        contact : 'contato: currículo por Whatsapp:  (73) 3214-8800 ',
-        Description: 'Atividades pertinentes ao cargo'
-    },
 
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
 
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
+ 
 
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
 
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
 
     
 
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
+    
+
+   
 
      {
         id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
+        nameCompany: 'Móveis Fênix', 
+        job:'Cargo: CARREGADOR ', 
+        contact : 'contato: rhmoveisfenixitabuna@gmail.com',
+        Description: 'Residir em Itabuna; Maior de 18 anos; Experiência como carregador;'
     },
 
      {
