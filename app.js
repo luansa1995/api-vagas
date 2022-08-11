@@ -31,6 +31,27 @@ app.get('/vagas', (req, res) => {
     res.json([    
         {
             id : '.',
+            nameCompany: 'Raízen -  publicada 11-08-22', 
+            job:'Cargo: AUXILIAR ADMINISTRATIVO I – PcD', 
+            contact : '<a href="https://genteraizen.gupy.io/job/eyJqb2JJZCI6MjcyNDk1Niwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page"> Cadastre-se</a>',
+            Description: 'Desejável conhecimento de SAP; Obrigatório Pacote office intermediário; Demais rotinas administrativas do escritório; Agendar veículos para carregamento e descarga em terminal terceiro; Atender clientes;'
+        },    
+         {
+            id : '.',
+            nameCompany: 'Barry Callebaut ', 
+            job:'Cargo: OPERADOR DE EMBARQUE', 
+            contact : '<a href="https://jobs.barry-callebaut.com/search/?createNewAlert=false&q=&optionsFacetsDD_country=&optionsFacetsDD_department=&optionsFacetsDD_dept=&locationsearch=itabuna"> Cadastre-se</a>',
+            Description: 'Pacote office intermediário; Noções de SAP e 5S serão diferenciais; Superior Completo'
+        },    
+         {
+            id : '.',
+            nameCompany: 'Barry Callebaut ', 
+            job:'Cargo: ATENDENTE DE PRODUÇÃO', 
+            contact : '<a href="https://jobs.barry-callebaut.com/search/?createNewAlert=false&q=&optionsFacetsDD_country=&optionsFacetsDD_department=&optionsFacetsDD_dept=&locationsearch=itabuna"> Cadastre-se</a>',
+            Description: 'Flexibilidade de horários;Ensino médico completo; Boa comunicação; Realizar limpezas de áreas e equipamentos do processo; Coletas de amostras no processo produtivo; Auxiliar o operador de produção nas diversas atividades operacionais;'
+        },    
+        {
+            id : '.',
             nameCompany: 'Móveis Fênix - publicada 09-08-22', 
             job:'Cargo: CARREGADOR ', 
             contact : 'contato: rhmoveisfenixitabuna@gmail.com',

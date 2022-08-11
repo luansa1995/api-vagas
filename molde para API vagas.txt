@@ -40,38 +40,32 @@
     
 
    
+   {
+        id : '.',
+        nameCompany: 'Raízen ', 
+        job:'Cargo: AUXILIAR ADMINISTRATIVO I – PcD', 
+        contact : '<a href="https://genteraizen.gupy.io/job/eyJqb2JJZCI6MjcyNDk1Niwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page"> Cadastre-se</a>',',
+        Description: 'Desejável conhecimento de SAP; Obrigatório Pacote office intermediário; Demais rotinas administrativas do escritório; Agendar veículos para carregamento e descarga em terminal terceiro; Atender clientes;'
+    },
+   
 
      {
         id : '.',
-        nameCompany: 'Móveis Fênix', 
-        job:'Cargo: CARREGADOR ', 
-        contact : 'contato: rhmoveisfenixitabuna@gmail.com',
-        Description: 'Residir em Itabuna; Maior de 18 anos; Experiência como carregador;'
+        nameCompany: 'Barry Callebaut ', 
+        job:'Cargo: OPERADOR DE EMBARQUE', 
+        contact : '<a href="https://jobs.barry-callebaut.com/search/?createNewAlert=false&q=&optionsFacetsDD_country=&optionsFacetsDD_department=&optionsFacetsDD_dept=&locationsearch=itabuna"> Cadastre-se</a>',',
+        Description: 'Pacote office intermediário; Noções de SAP e 5S serão diferenciais; Superior Completo'
     },
 
      {
         id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
+        nameCompany: 'Barry Callebaut ', 
+        job:'Cargo: ATENDENTE DE PRODUÇÃO', 
+        contact : '<a href="https://jobs.barry-callebaut.com/search/?createNewAlert=false&q=&optionsFacetsDD_country=&optionsFacetsDD_department=&optionsFacetsDD_dept=&locationsearch=itabuna"> Cadastre-se</a>',',
+        Description: 'Flexibilidade de horários;Ensino médico completo; Boa comunicação; Realizar limpezas de áreas e equipamentos do processo; Coletas de amostras no processo produtivo; Auxiliar o operador de produção nas diversas atividades operacionais;'
     },
 
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
+  
 
     
 
