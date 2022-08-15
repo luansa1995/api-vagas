@@ -28,7 +28,28 @@ app.use((req, res, next) => {
 }); 
 
 app.get('/vagas', (req, res) => {
-    res.json([    
+    res.json([   
+        {
+            id : '.',
+            nameCompany: 'Magazine Luiza -  publicada 15-08-22', 
+            job:'Cargo:  ASSISTENTE DE LOJA - Praca Siqueira Campos, 72', 
+            contact : 'contato: ',
+            Description: 'Ensino Médio Completo (preferencialmente); Atividades: Preencher dados da venda no sistema; Auxiliar na venda; Recepcionar o cliente na loja;Conferir produtos e fazer pacotes; Etc.'
+        },         
+        {
+            id : '.',
+            nameCompany: 'MAXXI ITABUNA', 
+            job:'Cargo: AGENTE DE CARTÕES E SERVIÇOS ', 
+            contact : 'contato: <a href="<a href="https://jobs.barry-callebaut.com/search/?createNewAlert=false&q=&optionsFacetsDD_country=&optionsFacetsDD_department=&optionsFacetsDD_dept=&locationsearch=itabuna"> Cadastre-se</a>"> Cadastre-se</a> ',
+            Description: 'Ensino Médio Completo;Desejável experiência com vendas;Necessário disponibilidade para trabalhar em escala 6×1 (feriados e finais de semana);'
+        },
+        {
+            id : '.',
+            nameCompany: 'Grupo Big', 
+            job:'Cargo: AÇOUGUEIRO ', 
+            contact : 'contato: <a href="<a href="https://jobs.barry-callebaut.com/search/?createNewAlert=false&q=&optionsFacetsDD_country=&optionsFacetsDD_department=&optionsFacetsDD_dept=&locationsearch=itabuna"> Cadastre-se</a>"> Cadastre-se</a> ',
+            Description: 'Ensino médio completo;Possuir experiência na função de Açougueiro;Necessário disponibilidade para trabalhar em escala 6×1 (feriados e finais de semana);'
+        },
         {
             id : '.',
             nameCompany: 'Raízen -  publicada 11-08-22', 

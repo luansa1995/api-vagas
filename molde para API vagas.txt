@@ -40,57 +40,18 @@
     
 
    
-   {
-        id : '.',
-        nameCompany: 'Raízen ', 
-        job:'Cargo: AUXILIAR ADMINISTRATIVO I – PcD', 
-        contact : '<a href="https://genteraizen.gupy.io/job/eyJqb2JJZCI6MjcyNDk1Niwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page"> Cadastre-se</a>',',
-        Description: 'Desejável conhecimento de SAP; Obrigatório Pacote office intermediário; Demais rotinas administrativas do escritório; Agendar veículos para carregamento e descarga em terminal terceiro; Atender clientes;'
-    },
    
-
-     {
-        id : '.',
-        nameCompany: 'Barry Callebaut ', 
-        job:'Cargo: OPERADOR DE EMBARQUE', 
-        contact : '<a href="https://jobs.barry-callebaut.com/search/?createNewAlert=false&q=&optionsFacetsDD_country=&optionsFacetsDD_department=&optionsFacetsDD_dept=&locationsearch=itabuna"> Cadastre-se</a>',',
-        Description: 'Pacote office intermediário; Noções de SAP e 5S serão diferenciais; Superior Completo'
-    },
-
-     {
-        id : '.',
-        nameCompany: 'Barry Callebaut ', 
-        job:'Cargo: ATENDENTE DE PRODUÇÃO', 
-        contact : '<a href="https://jobs.barry-callebaut.com/search/?createNewAlert=false&q=&optionsFacetsDD_country=&optionsFacetsDD_department=&optionsFacetsDD_dept=&locationsearch=itabuna"> Cadastre-se</a>',',
-        Description: 'Flexibilidade de horários;Ensino médico completo; Boa comunicação; Realizar limpezas de áreas e equipamentos do processo; Coletas de amostras no processo produtivo; Auxiliar o operador de produção nas diversas atividades operacionais;'
-    },
-
   
 
     
 
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
 
      {
         id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
+        nameCompany: 'Magazine Luiza -  publicada 15-08-22', 
+        job:'Cargo:  ASSISTENTE DE LOJA - Praca Siqueira Campos, 72', 
         contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
+        Description: 'Ensino Médio Completo (preferencialmente); Atividades: Preencher dados da venda no sistema; Auxiliar na venda; Recepcionar o cliente na loja;Conferir produtos e fazer pacotes; Etc.'
     },
 
      {
