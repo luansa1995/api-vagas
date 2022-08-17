@@ -47,7 +47,7 @@ app.get('/vagas', (req, res) => {
             id : '.',
             nameCompany: 'MAXXI ITABUNA', 
             job:'Cargo: AGENTE DE CARTÕES E SERVIÇOS ', 
-            contact : 'contato: <a href="<a href="https://jobs.barry-callebaut.com/search/?createNewAlert=false&q=&optionsFacetsDD_country=&optionsFacetsDD_department=&optionsFacetsDD_dept=&locationsearch=itabuna"> Cadastre-se</a>"> Cadastre-se</a> ',
+            contact : 'contato: <a href="<a href="https://jobs.barry-callebaut.com/search/?createNewAlert=false&q=&optionsFacetsDD_country=&optionsFacetsDD_department=&optionsFacetsDD_dept=&locationsearch=itabuna"> Cadastre-se</a>">  ',
             Description: 'Ensino Médio Completo;Desejável experiência com vendas;Necessário disponibilidade para trabalhar em escala 6×1 (feriados e finais de semana);'
         },
         {
