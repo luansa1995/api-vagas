@@ -46,20 +46,14 @@
     
 
 
-     {
-        id : '.',
-        nameCompany: 'Magazine Luiza -  publicada 15-08-22', 
-        job:'Cargo:  ASSISTENTE DE LOJA - Praca Siqueira Campos, 72', 
-        contact : 'contato: ',
-        Description: 'Ensino Médio Completo (preferencialmente); Atividades: Preencher dados da venda no sistema; Auxiliar na venda; Recepcionar o cliente na loja;Conferir produtos e fazer pacotes; Etc.'
-    },
+     
 
      {
         id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
+        nameCompany: 'Móveis Fênix', 
+        job:'Cargo: VENDEDORA INTERNA', 
         contact : 'contato: ',
-        Description: ''
+        Description: 'Experiência mínima de 06 meses;Sexo Feminino;'
     },
 
      {

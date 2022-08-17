@@ -28,7 +28,14 @@ app.use((req, res, next) => {
 }); 
 
 app.get('/vagas', (req, res) => {
-    res.json([   
+    res.json([ 
+        {
+            id : '.',
+            nameCompany: 'Móveis Fênix -  publicada 17-08-22', 
+            job:'Cargo: VENDEDORA INTERNA', 
+            contact : 'contato: rhmoveisfenixitabuna@gmail.com',
+            Description: 'Experiência mínima de 06 meses;Sexo Feminino; Maior de 18 anos;'
+        },  
         {
             id : '.',
             nameCompany: 'Magazine Luiza -  publicada 15-08-22', 
