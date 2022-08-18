@@ -31,6 +31,20 @@ app.get('/vagas', (req, res) => {
     res.json([ 
         {
             id : '.',
+            nameCompany: 'Sicoob Coopec - publicada 18-08-22 ', 
+            job:'Cargo: ESTAGIÁRIO ADMINISTRATIVO', 
+            contact : 'contato: <a href="https://career4.successfactors.com/career?company=sicoob"  > Cadastre-se</a>',  
+            Description: 'R$ 800,00; Cursando a partir do 3º semestre em Administração;CARGA HORÁRIA: 30h semanais/ 06h diárias; Oportunidades de Carreira: 3369 - Sicoob Coopec'
+        },   
+        {
+            id : '.',
+            nameCompany: 'Sicoob Coopec ', 
+            job:'Cargo: ESTAGIÁRIO – ÁREA DE RELACIONAMENTO', 
+            contact : 'contato: <a href="https://career4.successfactors.com/career?company=sicoob"  > Cadastre-se</a>',
+            Description: 'Auxiliar na atualização cadastral de associados/clientes; Apoiar no atendimento ao público; CARGA HORÁRIA: 30h semanais/ 06h diárias; Bolsa auxílio (R$ 800,00) + Transporte; Cursando a partir do 3º semestre em Administração, Ciências Contábeis, Economia ou áreas afins.'
+        },
+        {
+            id : '.',
             nameCompany: 'Móveis Fênix -  publicada 17-08-22', 
             job:'Cargo: VENDEDORA INTERNA', 
             contact : 'contato: rhmoveisfenixitabuna@gmail.com',
