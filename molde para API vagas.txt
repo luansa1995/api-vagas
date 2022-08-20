@@ -12,11 +12,17 @@
         id : '.',
         nameCompany: 'Casa do Construtor', 
         job:'Cargo: Mecânico ', 
-        contact : '<a href="https://portal.kenoby.com/casadoconstrutorlojas/login?redirect=%2Fcasadoconstrutorlojas%2Fcadastrar%2F62dad6539326d679b20d690a&1=1utm_source%3Dwebsite&action=email"  > Cadastre-se</a>',',
+        contact : '<a href="https://portal.kenoby.com/casadoconstrutorlojas/login?redirect=%2Fcasadoconstrutorlojas%2Fcadastrar%2F62dad6539326d679b20d690a&1=1utm_source%3Dwebsite&action=email"  > Cadastre-se</a>' ,
         Description: 'Ensino médio Completo; Curso técnico mecânico; Carteira de habilitação AB.'
     },
 
-
+    {
+        id : '.',
+        nameCompany: '', 
+        job:'Cargo: ', 
+        contact : '<a href=""  > Cadastre-se</a>' ,
+        Description: ''
+    },
 
 
 
@@ -48,41 +54,15 @@
 
      
 
-    
-
      {
         id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
+        nameCompany: 'não definido - Zematti RH', 
+        job:'Cargo: Gerente de Loja', 
+         contact : '<a href="https://zemattirh.pandape.com.br/Detail/195152"  > Cadastre-se</a>' ,
+        Description: 'Responsável pelo resultado da Auditoria interna; Controle de inventário, desperdícios e pedidos de compra da unidade; Gestão dos indicadores e custos operacionais; realizando a gestão da equipe'
     },
 
-    
-
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
+  
 
      {
         id : '.',

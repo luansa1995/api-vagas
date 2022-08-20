@@ -31,6 +31,13 @@ app.get('/vagas', (req, res) => {
     res.json([ 
         {
             id : '.',
+            nameCompany: 'não definido - Zematti RH  - publicada 20-08-22 ', 
+            job:'Cargo: Gerente de Loja', 
+             contact : '<a href="https://zemattirh.pandape.com.br/Detail/195152"  > Cadastre-se</a>' ,
+            Description: 'Responsável pelo resultado da Auditoria interna; Controle de inventário, desperdícios e pedidos de compra da unidade; Gestão dos indicadores e custos operacionais; realizando a gestão da equipe'
+        },
+        {
+            id : '.',
             nameCompany: 'Sicoob Coopec - publicada 18-08-22 ', 
             job:'Cargo: ESTAGIÁRIO ADMINISTRATIVO', 
             contact : 'contato: <a href="https://career4.successfactors.com/career?company=sicoob"  > Cadastre-se</a>',  
@@ -273,61 +280,7 @@ app.get('/vagas', (req, res) => {
         nameCompany: 'SGS MONTAGEM INDUSTRIAL ELETROMECANICAS LTDA', 
         job:'Cargo: ENCANADOR INDUSTRIAL', 
         contact : ' adm@sgsmontagemindustrial.com.br',
-        Description: 'publicada: 11/07',
-    },{
-        id : '.',
-        nameCompany: 'Innove med centro médico e odontológico', 
-        job:'Cargo: Recepcionista', 
-        contact : 'innovemedcentro@hotmail.com',
-        Description: 'Local: UBATÃ',
-    },{
-        id : '.',
-        nameCompany: 'Innove med centro médico e odontológico', 
-        job:'Cargo: Aux./Técnico em saúde bucal ', 
-        contact : 'innovemedcentro@hotmail.com',
-        Description: 'Local: UBATÃ',
-    },{
-        id : '.',
-        nameCompany: 'Innove med centro médico e odontológico', 
-        job:'Cargo: Tec. em enfermagem', 
-        contact : 'innovemedcentro@hotmail.com',
-        Description: 'Local: UBATÃ',
-    },{
-        id : '.',
-        nameCompany: 'Heineken Revendedor autorizado', 
-        job:'Cargo: Motorista de entrega e manobrista', 
-        contact : 'rhcurriculos@ios.grupojsg.com.br',
-        Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>',
-    },{
-        id : '.',
-        nameCompany: 'Heineken Revendedor autorizado',
-        job:'Cargo: Auxiliar de armazém', 
-        contact: 'rhcurriculos@ios.grupojsg.com.br',
-        Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
-    },{
-        id : '.',
-        nameCompany: 'Heineken Revendedor autorizado', 
-        job:'Cargo: Aprendiz', 
-        contact : 'rhcurriculos@ios.grupojsg.com.br',
-        Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
-    },{
-        id : '.',
-        nameCompany: 'Heineken Revendedor autorizado', 
-        job:'Cargo: Auxiliar de entrega', 
-        contact : 'rhcurriculos@ios.grupojsg.com.br',
-        Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
-    },{
-        id : '.',
-        nameCompany: 'Heineken Revendedor autorizado', 
-        job:'Cargo: Vendedor ilhéus/itabuna', 
-        contact : 'rhcurriculos@ios.grupojsg.com.br',
-        Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
-    },{
-        id : '.',
-        nameCompany: 'Heineken Revendedor autorizado', 
-        job:'Cargo: Operador de empilhadeira', 
-        contact : 'rhcurriculos@ios.grupojsg.com.br',
-        Description: 'Mais informaçõs sobre a vaga: <a href="https://ibb.co/pRJs4F2">mais info</a>'
+        Description: 'publicada: 11/07'
     }
 
     // ,{
