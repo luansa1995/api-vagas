@@ -31,6 +31,50 @@ app.get('/vagas', (req, res) => {
     res.json([ 
         {
             id : '.',
+            nameCompany: 'Fedex - publicada 25-08-22', 
+            job:'Cargo: COORDENADOR ASSISTENTE DE OPERAÇÕES III', 
+            contact : '<a href="https://www.vagas.com.br/vagas/v2424629/coordenador-assistente-de-operacoes-iii"  > Cadastre-se</a>' ,
+            Description: 'Ensino médio completo, Graduação Completa será um diferencial; Experiência na área de transportes; Experiência com atendimento ao cliente; Disponibilidade para viagens;'
+        },
+         {
+            id : '.',
+            nameCompany: 'Fedex ', 
+            job:'Cargo: CONFERENTE ', 
+            contact : '<a href="https://www.vagas.com.br/vagas/v2425127/conferente"  > Cadastre-se</a>' ,
+            Description: 'Ensino médio completo; Bom relacionamento interpessoal e comportamento;'
+        },
+         {
+            id : '.',
+            nameCompany: 'Fedex ', 
+            job:'Cargo: ASSISTENTE DE OPERAÇÕES', 
+            contact : '<a href="https://www.vagas.com.br/vagas/v2425130/assistente-de-operacoes"> Cadastre-se</a>' ,
+            Description: 'Realizar o acompanhamento dos indicadores operacionais; Ensino Médio Completo; Conhecimento pacote Office.'
+        },
+         {
+            id : '.',
+            nameCompany: 'Grupo Big', 
+            job:'Cargo: APRENDIZ ', 
+            contact : '<a href="https://jobs.kenoby.com/grupobig"  > Cadastre-se</a>' ,
+            Description: 'Ensino Fundamental Cursando a partir do 7ª ano; Desejável conhecimento do Pacote Office;Responsável por verificar a entrada e saída de correspondências;Auxiliar no Empacotamento de mercadorias;Auxiliar na reposição de mercadorias;'
+        },
+         {
+            id : '.',
+            nameCompany: 'Grupo Big', 
+            job:'Cargo: OPERADOR DE LOJA (CAIXA)', 
+            contact : '<a href=""  > Cadastre-se</a>' ,
+            Description: 'Atendimento ao cliente, Reposição de mercadorias, Limpeza e organização do local de trabalho; Ensino Médio Completo; Desejável experiências com atendimento ao cliente; '
+        },
+        
+    
+          {
+            id : '.',
+            nameCompany: 'Aché Laboratórios ', 
+            job:'Cargo: PROPAGANDISTA VENDEDOR', 
+            contact : '<a href=""  > Cadastre-se</a>' ,
+            Description: '* Desenvolver seu trabalho externamente, com divulgação de medicamentos para área médica, por meio de visitas em Clínicas, Rede de Farmácias, Distribuidores, Hospitais e Consultórios, através de um prévio planejamento e implementação de ações comerciais e promocionais conforme estratégia e política da Empresa; Superior completo; Imprescindível vivência na área comercial; Possuir CNH definitiva'
+        },
+        {
+            id : '.',
             nameCompany: 'não definido - Zematti RH  - publicada 20-08-22 ', 
             job:'Cargo: Gerente de Loja', 
              contact : '<a href="https://zemattirh.pandape.com.br/Detail/195152"  > Cadastre-se</a>' ,

@@ -14,585 +14,132 @@
         job:'Cargo: Mecânico ', 
         contact : '<a href="https://portal.kenoby.com/casadoconstrutorlojas/login?redirect=%2Fcasadoconstrutorlojas%2Fcadastrar%2F62dad6539326d679b20d690a&1=1utm_source%3Dwebsite&action=email"  > Cadastre-se</a>' ,
         Description: 'Ensino médio Completo; Curso técnico mecânico; Carteira de habilitação AB.'
-    },
+    }
 
-    {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+      {
+        id : '.',
+        nameCompany: 'Fedex ', 
+        job:'Cargo: COORDENADOR ASSISTENTE DE OPERAÇÕES III', 
+        contact : '<a href="https://www.vagas.com.br/vagas/v2424629/coordenador-assistente-de-operacoes-iii"  > Cadastre-se</a>' ,
+        Description: 'Ensino médio completo, Graduação Completa será um diferencial; Experiência na área de transportes; Experiência com atendimento ao cliente; Disponibilidade para viagens;'
+    },
+     {
+        id : '.',
+        nameCompany: 'Fedex ', 
+        job:'Cargo: CONFERENTE ', 
+        contact : '<a href="https://www.vagas.com.br/vagas/v2425127/conferente"  > Cadastre-se</a>' ,
+        Description: 'Ensino médio completo; Bom relacionamento interpessoal e comportamento;'
+    },
+     {
+        id : '.',
+        nameCompany: 'Fedex ', 
+        job:'Cargo: ASSISTENTE DE OPERAÇÕES', 
+        contact : '<a href="https://www.vagas.com.br/vagas/v2425130/assistente-de-operacoes"  > Cadastre-se</a>' ,
+        Description: 'Realizar o acompanhamento dos indicadores operacionais; Ensino Médio Completo; Conhecimento pacote Office.'
+    },
+     {
         id : '.',
         nameCompany: '', 
         job:'Cargo: ', 
         contact : '<a href=""  > Cadastre-se</a>' ,
         Description: ''
     },
-
-
-
-
-
-     
-   
-
+     {
+        id : '.',
+        nameCompany: '', 
+        job:'Cargo: ', 
+        contact : '<a href=""  > Cadastre-se</a>' ,
+        Description: ''
+    },
     
 
-     
-
-
-
- 
-
-
-
+      {
+        id : '.',
+        nameCompany: '', 
+        job:'Cargo: ', 
+        contact : '<a href=""  > Cadastre-se</a>' ,
+        Description: ''
+    },
+     {
+        id : '.',
+        nameCompany: '', 
+        job:'Cargo: ', 
+        contact : '<a href=""  > Cadastre-se</a>' ,
+        Description: ''
+    },
+     {
+        id : '.',
+        nameCompany: '', 
+        job:'Cargo: ', 
+        contact : '<a href=""  > Cadastre-se</a>' ,
+        Description: ''
+    },
+     {
+        id : '.',
+        nameCompany: '', 
+        job:'Cargo: ', 
+        contact : '<a href=""  > Cadastre-se</a>' ,
+        Description: ''
+    },
+     {
+        id : '.',
+        nameCompany: '', 
+        job:'Cargo: ', 
+        contact : '<a href=""  > Cadastre-se</a>' ,
+        Description: ''
+    },
+    
+      {
+        id : '.',
+        nameCompany: '', 
+        job:'Cargo: ', 
+        contact : '<a href=""  > Cadastre-se</a>' ,
+        Description: ''
+    },
+     {
+        id : '.',
+        nameCompany: '', 
+        job:'Cargo: ', 
+        contact : '<a href=""  > Cadastre-se</a>' ,
+        Description: ''
+    },
+     {
+        id : '.',
+        nameCompany: '', 
+        job:'Cargo: ', 
+        contact : '<a href=""  > Cadastre-se</a>' ,
+        Description: ''
+    },
+     {
+        id : '.',
+        nameCompany: '', 
+        job:'Cargo: ', 
+        contact : '<a href=""  > Cadastre-se</a>' ,
+        Description: ''
+    },
+     {
+        id : '.',
+        nameCompany: '', 
+        job:'Cargo: ', 
+        contact : '<a href=""  > Cadastre-se</a>' ,
+        Description: ''
+    },
     
 
-    
-
-   
-   
-  
-
-    
-
-
-     
-
-     {
-        id : '.',
-        nameCompany: 'não definido - Zematti RH', 
-        job:'Cargo: Gerente de Loja', 
-         contact : '<a href="https://zemattirh.pandape.com.br/Detail/195152"  > Cadastre-se</a>' ,
-        Description: 'Responsável pelo resultado da Auditoria interna; Controle de inventário, desperdícios e pedidos de compra da unidade; Gestão dos indicadores e custos operacionais; realizando a gestão da equipe'
-    },
-
-  
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-    
-
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-
-    
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-    
-
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-    
-
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-
-    
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-    
-
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-    
-
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-
-    
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-    
-
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-    
-
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-
-    
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-    
-
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-    
-
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-
-    
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-    
-
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-    
-
-    {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
-
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : 'contato: ',
-        Description: ''
-    },
