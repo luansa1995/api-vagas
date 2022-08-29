@@ -33,63 +33,20 @@
 
     
 
-      {
+      ,
+     {
         id : '.',
-        nameCompany: 'Fedex ', 
-        job:'Cargo: COORDENADOR ASSISTENTE DE OPERAÇÕES III', 
-        contact : '<a href="https://www.vagas.com.br/vagas/v2424629/coordenador-assistente-de-operacoes-iii"  > Cadastre-se</a>' ,
-        Description: 'Ensino médio completo, Graduação Completa será um diferencial; Experiência na área de transportes; Experiência com atendimento ao cliente; Disponibilidade para viagens;'
+        nameCompany: 'INEC', 
+        job:'Cargo:  AGENTE DE MICROCRÉDITO URBANO ', 
+        contact : '<a href="https://inec.gupy.io/job/eyJqb2JJZCI6NzgxMDAzLCJzb3VyY2UiOiJndXB5X3B1YmxpY19wYWdlIn0=?jobBoardSource=gupy_public_page"  > Cadastre-se</a>' ,
+        Description: 'Controle e Acompanhamento de sua carteira de crédito; Realizar promoções e palestras de informação dos produtos de Microfinança e de outros eventos que tenham por finalidade captar novos clientes e manter os clientes ativos com alto nível de satisfação; Oferecer orientações para a boa administração dos créditos concedidos; Formação: Ensino Médio completo; Experiência em vendas externas, negociação e cobrança; Salário: R$ 1.487,56;'
     },
      {
         id : '.',
-        nameCompany: 'Fedex ', 
-        job:'Cargo: CONFERENTE ', 
-        contact : '<a href="https://www.vagas.com.br/vagas/v2425127/conferente"  > Cadastre-se</a>' ,
-        Description: 'Ensino médio completo; Bom relacionamento interpessoal e comportamento;'
-    },
-     {
-        id : '.',
-        nameCompany: 'Fedex ', 
-        job:'Cargo: ASSISTENTE DE OPERAÇÕES', 
-        contact : '<a href="https://www.vagas.com.br/vagas/v2425130/assistente-de-operacoes"  > Cadastre-se</a>' ,
-        Description: 'Realizar o acompanhamento dos indicadores operacionais; Ensino Médio Completo; Conhecimento pacote Office.'
-    },
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : '<a href=""  > Cadastre-se</a>' ,
-        Description: ''
-    },
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : '<a href=""  > Cadastre-se</a>' ,
-        Description: ''
-    },
-    
-
-      {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : '<a href=""  > Cadastre-se</a>' ,
-        Description: ''
-    },
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : '<a href=""  > Cadastre-se</a>' ,
-        Description: ''
-    },
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : '<a href=""  > Cadastre-se</a>' ,
-        Description: ''
+        nameCompany: 'Intervalor ', 
+        job:'Cargo: ASSISTENTE ADMINISTRATIVO JR ', 
+        contact : '<a href="https://www.vagas.com.br/vagas/v2427260/assistente-administrativo-jr"  > Cadastre-se</a>' ,
+        Description: 'Conferência de documentação; Monitoramento do sistema de análise de crédito; Preenchimento de ficha cadastral;'
     },
      {
         id : '.',

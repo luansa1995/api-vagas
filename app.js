@@ -31,6 +31,20 @@ app.get('/vagas', (req, res) => {
     res.json([ 
         {
             id : '.',
+            nameCompany: 'INEC  - publicada 29-08-22', 
+            job:'Cargo:  AGENTE DE MICROCRÉDITO URBANO ', 
+            contact : '<a href="https://inec.gupy.io/job/eyJqb2JJZCI6NzgxMDAzLCJzb3VyY2UiOiJndXB5X3B1YmxpY19wYWdlIn0=?jobBoardSource=gupy_public_page"  > Cadastre-se</a>' ,
+            Description: 'Controle e Acompanhamento de sua carteira de crédito; Realizar promoções e palestras de informação dos produtos de Microfinança e de outros eventos que tenham por finalidade captar novos clientes e manter os clientes ativos com alto nível de satisfação; Oferecer orientações para a boa administração dos créditos concedidos; Formação: Ensino Médio completo; Experiência em vendas externas, negociação e cobrança; Salário: R$ 1.487,56;'
+        },
+         {
+            id : '.',
+            nameCompany: 'Intervalor ', 
+            job:'Cargo: ASSISTENTE ADMINISTRATIVO JR ', 
+            contact : '<a href="https://www.vagas.com.br/vagas/v2427260/assistente-administrativo-jr"  > Cadastre-se</a>' ,
+            Description: 'Conferência de documentação; Monitoramento do sistema de análise de crédito; Preenchimento de ficha cadastral;'
+        },
+        {
+            id : '.',
             nameCompany: 'Fedex - publicada 25-08-22', 
             job:'Cargo: COORDENADOR ASSISTENTE DE OPERAÇÕES III', 
             contact : '<a href="https://www.vagas.com.br/vagas/v2424629/coordenador-assistente-de-operacoes-iii"  > Cadastre-se</a>' ,
