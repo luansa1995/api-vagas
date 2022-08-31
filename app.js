@@ -31,6 +31,13 @@ app.get('/vagas', (req, res) => {
     res.json([ 
         {
             id : '.',
+            nameCompany: 'Super fibra  - publicada 30-08-22', 
+            job:'Cargo: VENDEDOR ', 
+            contact : '<a href="#"  > Cadastre-se: envie curriculo para  (73) 99118-3118</a>' ,
+            Description: 'R$ 1.212,00 + ajuda de custo + comissão; experiencia Atuando com vendas externas'
+        },
+        {
+            id : '.',
             nameCompany: 'INEC  - publicada 29-08-22', 
             job:'Cargo:  AGENTE DE MICROCRÉDITO URBANO ', 
             contact : '<a href="https://inec.gupy.io/job/eyJqb2JJZCI6NzgxMDAzLCJzb3VyY2UiOiJndXB5X3B1YmxpY19wYWdlIn0=?jobBoardSource=gupy_public_page"  > Cadastre-se</a>' ,
