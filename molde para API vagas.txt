@@ -35,27 +35,21 @@
 
       
      
+     
      {
         id : '.',
-        nameCompany: 'Super fibra ', 
-        job:'Cargo: VENDEDOR ', 
-        contact : '<a href="#"  > Cadastre-se: envie curriculo para  (73) 99118-3118</a>' ,
-        Description: 'R$ 1.212,00 + ajuda de custo + comissão; experiencia Atuando com vendas externas'
-    },
-     {
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : '<a href=""  > Cadastre-se</a>' ,
-        Description: ''
+        nameCompany: 'Pague Menos', 
+        job:'Cargo: ATENDENTE DE FARMÁCIA', 
+        contact : '<a href="https://portal.kenoby.com/paguemenos/login?redirect=%2Fpaguemenos%2Fdashboard&action=email"  > Cadastre-se</a>' ,
+        Description: 'Conhecimento em Informática Básica; Ensino médio completo; Desejável curso de auxiliar de farmácia'
     },
     
       {
         id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : '<a href=""  > Cadastre-se</a>' ,
-        Description: ''
+        nameCompany: 'Moveis Fenix', 
+        job:'Cargo: MONTADOR', 
+        contact : '<a href="#"  > Cadastre-se: rhmoveisfenixitabuna@gmail.com</a>' ,
+        Description: ' Possuir CNH categoria A;  Experiência com montagens de móveis'
     },
      {
         id : '.',

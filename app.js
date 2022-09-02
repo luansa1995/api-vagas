@@ -31,6 +31,28 @@ app.get('/vagas', (req, res) => {
     res.json([ 
         {
             id : '.',
+            nameCompany: 'Pague Menos - publicada 02-09-22', 
+            job:'Cargo: ATENDENTE DE FARMÁCIA', 
+            contact : '<a href="https://portal.kenoby.com/paguemenos/login?redirect=%2Fpaguemenos%2Fdashboard&action=email"  > Cadastre-se</a>' ,
+            Description: 'Conhecimento em Informática Básica; Ensino médio completo; Desejável curso de auxiliar de farmácia'
+        },
+        
+          {
+            id : '.',
+            nameCompany: 'Moveis Fenix', 
+            job:'Cargo: MONTADOR', 
+            contact : '<a href="#"  > Cadastre-se: rhmoveisfenixitabuna@gmail.com</a>' ,
+            Description: ' Possuir CNH categoria A;  Experiência com montagens de móveis'
+        },
+         {
+            id : '.',
+            nameCompany: 'Barry Callebaut ', 
+            job:'Cargo: ANALISTA ADMINISTRATIVO DE PRODUÇÃO', 
+            contact : '<a href=""  > Cadastre-se</a>' ,
+            Description: ' Alta de estoque, consumo de componentes e fechamento técnico dentro do sistema SAP; Entradas de informações SAP, em planilhas e relatórios de controle de processos; Desenvolvimento de planilhas de controles e apresentações em Power point; Apoiar e desenvolver procedimentos e treinamentos; Ensino superior completo; Excel avançado; Desejável conhecimento em SAP.'
+        },
+        {
+            id : '.',
             nameCompany: 'Super fibra  - publicada 30-08-22', 
             job:'Cargo: VENDEDOR ', 
             contact : '<a href="#"  > Cadastre-se: envie curriculo para  (73) 99118-3118</a>' ,
