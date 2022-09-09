@@ -31,20 +31,62 @@ app.get('/vagas', (req, res) => {
     res.json([ 
         {
             id : '.',
-            nameCompany: 'Pague Menos - publicada 02-09-22', 
-            job:'Cargo: ATENDENTE DE FARMÁCIA', 
-            contact : '<a href="https://portal.kenoby.com/paguemenos/login?redirect=%2Fpaguemenos%2Fdashboard&action=email"  > Cadastre-se</a>' ,
-            Description: 'Conhecimento em Informática Básica; Ensino médio completo; Desejável curso de auxiliar de farmácia'
-        },
-        
-          {
+            nameCompany: 'Lolla - publicada 08-09-22', 
+            job:'Cargo: MANICURE', 
+            contact : '<a href="#"  > Cadastre-se (71) 98804-1880</a>' ,
+            Description: 'Você é Manicure profissional? Junte-se ao nosso time!'
+        },{
+            id : '.',
+            nameCompany: 'Centauro ', 
+            job:'Cargo: VENDEDOR(A) DE CALÇADOS  ', 
+            contact : '<a href="https://portal.kenoby.com/centauro/login?redirect=%2Fcentauro%2Fdashboard&action=email"  > Cadastre-se</a>' ,
+            Description: 'Ensino médio completo; Experiência com vendas e/ou atendimento; Conhecimento em calçados será considerado um diferencial;'
+        },{
+            id : '.',
+            nameCompany: 'Centauro ', 
+            job:'Cargo: ASSISTENTE DE LOJA  ', 
+            contact : '<a href="https://portal.kenoby.com/centauro/login?redirect=%2Fcentauro%2Fdashboard&action=email"  > Cadastre-se</a>' ,
+            Description: 'Vontade de aprender e sede de crescimento; Boa comunicação; Ensino médio completo;'
+        },{
             id : '.',
             nameCompany: 'Moveis Fenix', 
             job:'Cargo: MONTADOR', 
             contact : '<a href="#"  > Cadastre-se: rhmoveisfenixitabuna@gmail.com</a>' ,
             Description: ' Possuir CNH categoria A;  Experiência com montagens de móveis'
-        },
-         {
+        },{
+            id : '.',
+            nameCompany: 'He-net', 
+            job:'Cargo:  VENDEDOR CORPORATIVO (ITABUNA E ILHÉUS)', 
+            contact : '<a href="https://henet.solides.jobs/vacancies/176828#vacancyDescription"  > Cadastre-se</a>' ,
+            Description: '– CNH categoria B; Ensino médio completo; Conhecimento no pacote Office; -Técnicas de vendas em B2B ; -Disponibilidades para viagens Atuar nas seguintes cidades: – Itabuna; Ilhéus; Jequié'
+        },{
+        id : '.',
+        nameCompany: 'Polo Wear- Shopping', 
+        job:'Cargo:  GERENTE DE VENDAS ', 
+        contact : '<a href="https://www.vagas.com.br/vagas/v2429656/gerente-de-vendas-loja-polo-wear-inauguracao-shopping-jequitiba"  > Cadastre-se</a>' ,
+        Description: 'Preferencialmente, ter superior completo ou cursando; Ter atuado no segmento de varejo de vestuário; Experiência anterior em cargos de liderança em lojas;'
+    },
+     {
+        id : '.',
+        nameCompany: 'Polo Wear - shopping', 
+        job:'Cargo: SUBGERENTE DE VENDAS', 
+        contact : '<a href="https://www.vagas.com.br/vagas/v2429657/subgerente-de-vendas-loja-polo-wear-inauguracao-shopping-jequitiba"  > Cadastre-se</a>' ,
+        Description: 'Ter atuado no segmento de varejo de vestuário; Experiência anterior em cargos de liderança em lojas;'
+    },
+     {
+        id : '.',
+        nameCompany: 'CIEE ', 
+        job:'Cargo: AUXILIAR DE SERVIÇOS ADMINISTRATIVOS (PCD)', 
+        contact : '<a href="https://ciee.gupy.io/job/eyJqb2JJZCI6Mjg1MDMwNSwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page"  > Cadastre-se</a>' ,
+        Description: 'Será imprescindível ter Laudo Médico e/ou Exame complementar; A pessoa precisará ter o ensino médio; Precisará conhecer o pacote office ou ferramental do G/Suite; Controlar e monitorar o fluxo de contratações de aprendizes e estagiários; Análise de documentos dos candidatos; Remuneração: R$ 1.969,00.'
+    },
+        {
+            id : '.',
+            nameCompany: 'Pague Menos - publicada 02-09-22', 
+            job:'Cargo: ATENDENTE DE FARMÁCIA', 
+            contact : '<a href="https://portal.kenoby.com/paguemenos/login?redirect=%2Fpaguemenos%2Fdashboard&action=email"  > Cadastre-se</a>' ,
+            Description: 'Conhecimento em Informática Básica; Ensino médio completo; Desejável curso de auxiliar de farmácia'
+        },{
             id : '.',
             nameCompany: 'Barry Callebaut ', 
             job:'Cargo: ANALISTA ADMINISTRATIVO DE PRODUÇÃO', 
