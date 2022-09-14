@@ -31,6 +31,37 @@ app.get('/vagas', (req, res) => {
     res.json([ 
         {
             id : '.',
+            nameCompany: 'Moveis Fenix - publicada 14-09-22', 
+            job:'Cargo: CARREGADOR ', 
+            contact : '<a href="#"  > Cadastre-se:  rhmoveisfenixitabuna@gmail.com </a>' ,
+            Description: 'Residir em Itabuna; Sexo Masculino; Experiência com Carga e Descarga;'
+        },{
+            id : '.',
+            nameCompany: 'Drogasil ', 
+            job:'Cargo: ATENDENTE DE LOJA ', 
+            contact : '<a href="https://www.vagas.com.br/vagas/v2433400/atendente-de-loja"  > Cadastre-se</a>' ,
+            Description: ' Ter o Ensino Médio completo; Endereço: Rua Dalila Paganelli 1451; Escala de trabalho: 6 x 1 (podendo trabalhar sábados, domingos e feriados); '
+        },{
+            id : '.',
+            nameCompany: 'Rede Alea ', 
+            job:'Cargo: VENDEDOR INTERNO', 
+            contact : '<a href="https://redealea.pandape.com.br/Detail/219341"  > Cadastre-se</a>' ,
+            Description: 'Atua diretamente com o consumidor final, representando a marca através das soluções apresentadas, superando os objetivos qualitativos e quantitativos; Planejamento de metas; Técnicas de argumentação em vendas; Experiência em vendas;'
+        },{
+            id : '.',
+            nameCompany: 'Grupo Brasileiro - Divisão Honda ', 
+            job:'Cargo: GERENTE DE SERVIÇOS', 
+            contact : '<a href="https://grupobrasileirohonda.solides.jobs/vacancies/178194#vacancyDescription"  > Cadastre-se</a>' ,
+            Description: 'Experiência em gestão de equipes; Habilidade com indicadores comerciais e foco em resultados e metas; Boa comunicação verbal e escrita; Possuir CNH, categoria mínimo A; Vale-transporte; Carga horária de 44 horas semanais (segunda a sábado);'
+        },{
+            id : '.',
+            nameCompany: 'Aramis ', 
+            job:'Cargo: GERENTE DE LOJA', 
+            contact : '<a href="https://aramis.gupy.io/job/eyJqb2JJZCI6Mjk0MDE0Miwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page"  > Cadastre-se</a>' ,
+            Description: 'Realizar recrutamento e seleção (vendedores, operadores de caixa, estoquistas e alfaiates);    Treinar e capacitar a equipe, com o objetivo de desenvolver cada colaborador com os conhecimentos específicos da função e empresa; Raciocínio logico e capacidade analítica (Indicadores); Experiência em gestão de equipes; Conhecimento e vivência na área comercial; Conhecimento de Moda; Conhecimento de Visual Merchandising; ter trabalhado em marcas de moda masculina será um diferencial'
+        },
+        {
+            id : '.',
             nameCompany: 'Lolla - publicada 08-09-22', 
             job:'Cargo: MANICURE', 
             contact : '<a href="#"  > Cadastre-se (71) 98804-1880</a>' ,
@@ -356,60 +387,6 @@ app.get('/vagas', (req, res) => {
         job:'Cargo: Vendedor(a) Interno(a)', 
         contact : '<a href="https://aleavivo.gupy.io/job/eyJqb2JJZCI6MjA0OTk2MSwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?jobBoardSource=gupy_public_page">Cadastre-se</a>',
         Description: 'Local: Itabuna-ba | Salário Fixo + Comissão+ Benefícios | Ensino Médio Completo | Experiência em vendas'
-    },{
-        id : '.',
-        nameCompany: 'SINEBAHIA | Atualizado dia 16-07-22', 
-        job:'Cargo: Muitas vagas', 
-        contact : 'Cadastre-se físicamente no Sinebahia',
-        Description: '<a href="https://itabunavagas.github.io/itabunavagas112/sinebahia.html">mais info</a>'
-    },{
-        id : '.',
-        nameCompany: 'Móveis Fênix', 
-        job:'Cargo: OPERADORA DE CAIXA', 
-        contact : 'Cadastre-se: rhmoveisfenixitabuna@gmail.com',
-        Description: 'Local: Itabuna-Ba RESIDIR EM ITABUNA; ENS MÉDIO COMPLETO; CONHECIMENTO EM INFORMÁTICA.'
-    },{
-        id : '.',
-        nameCompany: 'Sipolatti', 
-        job:'Cargo: AJUDANTE DE CARGA E DESCARGA', 
-        contact : '<a href="https://sipolatti.gupy.io/job/eyJqb2JJZCI6MjQ3NTYzOCwic291cmNlIjoiZ3VweV9wdWJsaWNfcGFnZSJ9?utm_source=EMPREGAILHEUS.COM&utm_medium=EMPREGAILHEUS.COM&utm_campaign=EMPREGAILHEUS.COM">Cadastre-se</a>',
-        Description: 'Local: Itabuna-Ba | publicada 02/07 '
-    },{
-        id : '.',
-        nameCompany: 'Grupobig', 
-        job:'Cargo: Operador de Loja - Textil', 
-        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62cc392460fb0d1a3942b3d5&1=1utm_source%3Dwebsite&action=email">Cadastre-se</a>',
-        Description: 'Local: Itabuna-Ba BAIRRO: JARDIM VITÓRIA / Requisitos:Ensino Médio Completo, Desejável experiências com atendimento ao cliente, escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/operador-de-loja-textil/62cc392460fb0d1a3942b3d5?utm_source=website">mais info</a>'
-    },{
-        id : '.',
-        nameCompany: 'Grupobig', 
-        job:'Cargo: Operador de Loja - Frente de Caixa', 
-        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62cc36f62663e17abb3f7263&1=1utm_source%3Dwebsite&action=email">Cadastre-se</a>',
-        Description: 'Local: Itabuna-Ba BAIRRO: JARDIM VITÓRIA / Requisitos:Ensino Médio Completo, Desejável experiências com atendimento ao cliente, escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/padeiro/62cc07fa9961aadf84fe4a1d?utm_source=website">mais info</a>'
-    },{
-        id : '.',
-        nameCompany: 'Grupobig', 
-        job:'Cargo: Auxiliar de Perecíveis/repositor', 
-        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62952cf40a3a81392248b289&1=1utm_source%3Dwebsite&action=email">Cadastre-se</a>',
-        Description: 'Local: Itabuna-Ba BAIRRO: JARDIM VITÓRIA / Requisitos:Ensino Fundamental Completo, experiência, escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/auxiliar-de-pereciveis/62cc02ca78c6036ae9061809?utm_source=website">mais info</a>'
-    },{
-        id : '.',
-        nameCompany: 'Grupobig/MAXXI', 
-        job:'Repositor PCD', 
-        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62cc02ca78c6036ae9061809&1=1utm_source%3Dwebsite&action=email">Cadastre-se</a>',
-        Description: 'Local: Itabuna-Ba / Requisitos: Ensino Fundamental completo, Desejável experiência como Repositor, Necessário disponibilidade para trabalhar em escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/repositor-pcd-maxxi-itabuna/62952cf40a3a81392248b289?utm_source=website">mais info</a>'
-    },{
-        id : '.',
-        nameCompany: 'Grupobig', 
-        job:'Cargo: Padeiro', 
-        contact : '<a href="https://portal.kenoby.com/grupobig/login?redirect=%2Fgrupobig%2Fcadastrar%2F62cc07fa9961aadf84fe4a1d&1=1utm_source%3Dwebsite&action=email">Cadastre-se</a>',
-        Description: 'Local: Itabuna-Ba BAIRRO: JARDIM VITÓRIA / Requisitos:Ensino Fundamental Completo, experiência, escala 6x1 (feriados e finais de semana), <a href="https://jobs.kenoby.com/grupobig/job/padeiro/62cc07fa9961aadf84fe4a1d?utm_source=website">mais info</a>'
-    },{
-        id : '.',
-        nameCompany: 'SGS MONTAGEM INDUSTRIAL ELETROMECANICAS LTDA', 
-        job:'Cargo: ENCANADOR INDUSTRIAL', 
-        contact : ' adm@sgsmontagemindustrial.com.br',
-        Description: 'publicada: 11/07'
     }
 
     // ,{

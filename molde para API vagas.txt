@@ -40,60 +40,6 @@
    
      {
         id : '.',
-        nameCompany: 'Lolla ', 
-        job:'Cargo: MANICURE', 
-        contact : '<a href="#"  > Cadastre-se (71) 98804-1880</a>' ,
-        Description: 'Você é Manicure profissional? Junte-se ao nosso time!'
-    },{
-        id : '.',
-        nameCompany: 'Centauro ', 
-        job:'Cargo: VENDEDOR(A) DE CALÇADOS  ', 
-        contact : '<a href="https://portal.kenoby.com/centauro/login?redirect=%2Fcentauro%2Fdashboard&action=email"  > Cadastre-se</a>' ,
-        Description: 'Ensino médio completo; Experiência com vendas e/ou atendimento; Conhecimento em calçados será considerado um diferencial;'
-    },{
-        id : '.',
-        nameCompany: 'Centauro ', 
-        job:'Cargo: ASSISTENTE DE LOJA  ', 
-        contact : '<a href="https://portal.kenoby.com/centauro/login?redirect=%2Fcentauro%2Fdashboard&action=email"  > Cadastre-se</a>' ,
-        Description: 'Vontade de aprender e sede de crescimento; Boa comunicação; Ensino médio completo;'
-    },{
-        id : '.',
-        nameCompany: 'He-net', 
-        job:'Cargo:  VENDEDOR CORPORATIVO (ITABUNA E ILHÉUS)', 
-        contact : '<a href="https://henet.solides.jobs/vacancies/176828#vacancyDescription"  > Cadastre-se</a>' ,
-        Description: '– CNH categoria B; Ensino médio completo; Conhecimento no pacote Office; -Técnicas de vendas em B2B ; -Disponibilidades para viagens Atuar nas seguintes cidades: – Itabuna; Ilhéus; Jequié'
-    },{
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : '<a href=""  > Cadastre-se</a>' ,
-        Description: ''
-    },{
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : '<a href=""  > Cadastre-se</a>' ,
-        Description: ''
-    },{
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : '<a href=""  > Cadastre-se</a>' ,
-        Description: ''
-    },{
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : '<a href=""  > Cadastre-se</a>' ,
-        Description: ''
-    },{
-        id : '.',
-        nameCompany: '', 
-        job:'Cargo: ', 
-        contact : '<a href=""  > Cadastre-se</a>' ,
-        Description: ''
-    },{
-        id : '.',
         nameCompany: '', 
         job:'Cargo: ', 
         contact : '<a href=""  > Cadastre-se</a>' ,
