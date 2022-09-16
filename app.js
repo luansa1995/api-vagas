@@ -31,6 +31,30 @@ app.get('/vagas', (req, res) => {
     res.json([ 
         {
             id : '.',
+            nameCompany: 'Vivara - publicada 16-09-22', 
+            job:'Cargo: ESTOQUISTA ', 
+            contact : '<a href="https://carreiras.vivara.com.br/vagas"  > Cadastre-se</a>' ,
+            Description: 'Conferência e recebimento de Notas Fiscais; Relatórios internos; Estocagem organizada de produtos; Disponibilidade e flexibilidade em seus horários para atuar aos finais de semana e feriados na Escala 6X1; '
+        },{
+            id : '.',
+            nameCompany: 'Drogasil ', 
+            job:'Cargo: ATENDENTE DE LOJA ', 
+            contact : '<a href="https://www.vagas.com.br/vagas/v2433400/atendente-de-loja"  > Cadastre-se</a>' ,
+            Description: 'Ter o Ensino Médio completo; Escala de trabalho: 6 x 1 (podendo trabalhar sábados, domingos e feriados)'
+        },{
+            id : '.',
+            nameCompany: 'Magazine Luiza ', 
+            job:'Cargo:  ASSISTENTE DE LOJA', 
+            contact : '<a href="https://carreiras.magazineluiza.com.br/vagas"  > Cadastre-se</a>' ,
+            Description: 'Organizar e limpar o setor de trabalho;Conferir produtos e fazer pacotes; Recepcionar o cliente na loja; Auxiliar na venda; Ensino Médio Completo (preferencialmente)'
+        },{
+            id : '.',
+            nameCompany: 'Chiller Refrigeração', 
+            job:'Cargo: AUXILIAR ADMINISTRATIVO', 
+            contact : '<a href="#"  > Cadastre-se: rh@chiller.com.br</a>' ,
+            Description: 'Conhecimento na Area Comercial; Experiência com Informática, Word e Excel Avançado'
+        },{
+            id : '.',
             nameCompany: 'Moveis Fenix - publicada 14-09-22', 
             job:'Cargo: CARREGADOR ', 
             contact : '<a href="#"  > Cadastre-se:  rhmoveisfenixitabuna@gmail.com </a>' ,
